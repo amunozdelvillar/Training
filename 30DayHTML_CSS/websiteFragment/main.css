@@ -1,4 +1,4 @@
-body { background-color: black;}
+body { background-color: #eee;}
 main {
     width: 650px;
     margin: auto;
@@ -76,6 +76,16 @@ main {
     background-color:#E6EBE9;
     display:inline-block;
     margin: 5px 0px;
+}
+
+.article-metadata > a {
+    text-decoration: none;
+    color:black;
+}
+
+.article-metadata > a:hover {
+    text-decoration: underline;
+    color:#055C39;
 }
 
 .article-description {
