@@ -1,0 +1,46 @@
+main {
+    width: 500px;
+    margin: auto;
+}
+
+div {
+    margin: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+div.img {
+    float:left;
+}
+
+div.img img {
+    height: 120px;
+    width:  150px;
+}
+
+article {
+    padding: 20px;
+}
+
+article li {
+    display:inline;
+    padding: 2px 3px 2px 3px;
+}
+
+article ul {
+    padding-left: 0;
+}
+
+.author {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.cont {
+    float: right;
+}
+
+
+
+
+
