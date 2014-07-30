@@ -3,24 +3,40 @@
 <head>
     <title>Fragment</title>
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
 </head>
 <body>
     <main>
-        <article>
-            <div class="img"><img src="img/nodejs.png" /></div>
-            <div>
-                <ul>
-                    <li><a href="#">Articles</a></li>
-                    <li><a href="#">Web Roundups</a></li>
-                    <li>Rating ****</li>
+        <article class="article">
+            <div class="article-img-wrapper">
+                <img class="article-media" src="img/nodejs.png" />
+            </div>
+            <div class="article-content">
+                <ul class="article-breadcrumbs">
+                    <li class="article-breadcrumbs-item"><a href="#">Articles</a> \ </li>
+                    <li class="article-breadcrumbs-item"><a href="#">Web Roundups</a> \ </li>
+                    <label for="rating">Rating:</label>
+                    <li id="rating" class="article-breadcrumbs-item article-breadcrumbs-rating"><span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                                <span class="fa fa-star-o"></span>
+                    </li>
                 </ul>
-                <h1>20 Javascript Frameworks Worth Checking Out</h1>
-                <p class="author">Siddharth on Sep 23rd 2011 with 44 comments</p>
+                <h1 class="article-title">20 Javascript Frameworks Worth Checking Out</h1>
+                <!--
+                    .article-meta
+                        .article-author
+                        .article-date
+                        .article-comments
+                -->
+                <p class="article-metadata"><span class="article-author">Siddharth</span><span class="article-date"> on Sep 23rd 2011 </span><span class="article-comments">with 44 comments</span></p>
                 <p>
-                    The number of web applications being created and used has grown rapidly since the new millenium. belkasjldkjblekjlkajb;lekjlkajblksajblekjalksjg. b s lk bslkdjblskjb lskjdlkb sjkb lsdjb.sd lbjskldbj sld bs dlbkjsldkjs.d bklsjdklj slakjf dslfd.
+                    The number of web applications being created and used has grown rapidly since the new millenium. And importantly, so has the sheer complexity of them -- specially on the front end. No more stattic pages, no sir!
                 </p>
                 <p>
-                    kjblekjlkajb;lekjlkajblksajblekjalksjg. b s lk bslkdjblskjb lskjdlkb sjkb lsdjb.sd lbjskldbj sld bs dlbkjsldkjs.d bklsjdklj slakjf dslfd.
+                    You have a ton of sections each interacting with each other and the server and yes, it's as complicates as it sounds and just as hard to pull off. Today, I'd like to talk about a few, choice Javascript frameworks that aim to simplify frond end app.
                 </p>
                 <p class="cont">(<a href="#">Continue</a>)</p>
             </div>

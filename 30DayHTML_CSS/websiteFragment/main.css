@@ -1,44 +1,100 @@
+body { background-color: black;}
 main {
-    width: 500px;
+    width: 650px;
     margin: auto;
+    background-color: #ffffff;
+    font-family: sans-serif;
 }
 
-div {
-    margin: 5px;
-    overflow: hidden;
-    padding: 5px;
-}
-
-div.img {
-    float:left;
-}
-
-div.img img {
-    height: 120px;
-    width:  150px;
-}
-
-article {
+.article {
+    vertical-align: top;
     padding: 20px;
 }
 
-article li {
+.article-img-wrapper {
+    float:left;
+    margin: 0px 20px;
+}
+
+.article-media {
+    height: 180px;
+    width:  180px;
+    background-image: url("http://placehold.it/180x180");
+    display:block;
+    text-indent: 100%;
+    overflow: hidden;
+}
+
+.article-content {
+    overflow: hidden;
+    margin: 0px 5px;
+}
+
+.article-breadcrumbs {
+    font-style: italic;
+    color:grey;
+    padding-left: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.article-breadcrumbs a {
+    text-decoration: none;
+    color:#055C39;
+}
+
+.article-breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.article-breadcrumbs-item {
     display:inline;
     padding: 2px 3px 2px 3px;
 }
 
-article ul {
-    padding-left: 0;
-}
-
-.author {
-    font-style: italic;
+.article-breadcrumbs-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color:black;
     font-size: 0.8em;
 }
 
-.cont {
-    float: right;
+.article-breadcrumbs-rating > span:hover:before,
+.article-breadcrumbs-rating > span:hover ~ span:before {
+    content: "\f005";
 }
+
+.article-title {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: -2px;
+}
+
+.article-metadata {
+    font-style: italic;
+    font-size: 0.8em;
+    background-color:#E6EBE9;
+    display:inline-block;
+    margin: 5px 0px;
+}
+
+.article-description {
+    font-size: 0.85em;
+    margin: 10px 0;
+}
+
+.article-continue {
+    float: right;
+    margin: 0;
+}
+
+.article-continue-link {
+    color:#055C39;
+    font-size: 0.85em
+}
+
+
+
 
 
 
