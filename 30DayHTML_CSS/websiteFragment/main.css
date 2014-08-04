@@ -13,26 +13,28 @@ main {
 
 .article-img-wrapper {
     float:left;
-    margin: 0px 20px;
+    margin: 0 20px;
 }
 
 .article-media {
+/*
     height: 180px;
     width:  180px;
     background-image: url("http://placehold.it/180x180");
     display:block;
     text-indent: 100%;
     overflow: hidden;
+*/
 }
 
 .article-content {
     overflow: hidden;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 
 .article-breadcrumbs {
     font-style: italic;
-    color:grey;
+    color:gray;
     padding-left: 0;
     margin: 0;
     font-size: 0.9em;
@@ -75,7 +77,8 @@ main {
     font-size: 0.8em;
     background-color:#E6EBE9;
     display:inline-block;
-    margin: 5px 0px;
+    margin: 5px 0;
+    padding: 3px;
 }
 
 .article-metadata > a {

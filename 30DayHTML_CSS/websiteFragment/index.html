@@ -2,22 +2,25 @@
 <html>
 <head>
     <title>Fragment</title>
+    <link rel="stylesheet" href="meyer-reset.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
     <link rel="stylesheet" href="main.css" />
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
 </head>
 <body>
     <main>
         <article class="article">
             <div class="article-img-wrapper">
-                <a class="article-media">Media</a>
+                <a class="article-media" href="#">
+                    <img src="http://placehold.it/180x180" alt="">
+                </a>
             </div>
             <div class="article-content">
                 <ul class="article-breadcrumbs">
                     <li class="article-breadcrumbs-item"><a href="#">Articles</a> \ </li>
                     <li class="article-breadcrumbs-item"><a href="#">Web Roundups</a> \ </li>
                     <label for="rating">Rating:</label>
-                    <li id="rating" class="article-breadcrumbs-item article-breadcrumbs-rating"><span class="fa fa-star-o"></span>
+                    <li id="rating" class="article-breadcrumbs-item article-breadcrumbs-rating">Rating<span class="fa fa-star-o"></span>
                                 <span class="fa fa-star-o"></span>
                                 <span class="fa fa-star-o"></span>
                                 <span class="fa fa-star-o"></span>
@@ -25,13 +28,13 @@
                     </li>
                 </ul>
                 <h1 class="article-title">20 Javascript Frameworks Worth Checking Out</h1>
-                <!--
-                    .article-meta
-                        .article-author
-                        .article-date
-                        .article-comments
-                -->
-                <p class="article-metadata"><a href="#" class="article-author">Siddharth</a><span class="article-date"> on Sep 23rd 2011 </span><a href="#" class="article-comments">with 44 comments</a></p>
+                <p class="article-metadata">
+                    <a href="#" class="article-author">Siddharth</a>
+                    on
+                    <time datetime="2011-09-23" class="article-date">Sep 23rd 2011</time>
+                    with
+                    <a href="#" class="article-comments">44 comments</a>
+                </p>
                 <p class="article-description">
                     The number of web applications being created and used has grown rapidly since the new millenium. And importantly, so has the sheer complexity of them -- specially on the front end. No more stattic pages, no sir!
                 </p>
