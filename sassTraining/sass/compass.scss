@@ -1,0 +1,11 @@
+
+@import "icon/*.png";
+@include all-icon-sprites;
+
+.icon-box-size {
+    height: 128px;
+    width: 128px;
+}
+div {
+    background: image-url('box.png');
+}

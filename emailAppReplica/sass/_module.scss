@@ -1,0 +1,67 @@
+/*
+ * COMMON SIDE-ACTIONBAR
+ */
+
+
+/*
+ * SIDEBAR BUTTON
+ */
+.new-mail-btn {
+  border-radius: 5px;
+  color:white;
+  background-color:#01caa0;
+  border:none;
+  font-size: 0.5em;
+  padding: 10px;
+  font-weight: bold;
+  width:90%;
+  margin: 10px 10px 0;
+}
+
+.new-mail-btn:after {
+  content:"\f044";
+  padding-left:10px;
+}
+
+.new-mail-btn:hover {
+
+}
+
+.navigation-options {
+  text-decoration-style: none;
+  padding-left: 0;
+}
+
+//#add-more-opts:before {
+//  content: ">\a0 ";
+//}
+//#add-more-opts:after {
+//  content: "<hr/>";
+//}
+
+
+.navigation-item {
+  color:#d7e3f0;
+  font-size:0.9em;
+  width:90%;
+  margin: auto;
+}
+
+.personalized-header {
+  color:#d7e3f0;
+  font-size:0.9em;
+  padding-left: 5px;
+  text-decoration:none;
+  font-weight: normal;
+}
+
+.navigation-link {
+  color:#d7e3f0;
+  font-size:0.9em;
+  padding-left: 5px;
+  text-decoration:none;
+}
+
+.navigation-link:hover {
+  text-decoration:underline;
+}

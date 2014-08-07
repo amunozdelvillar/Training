@@ -1,0 +1,25 @@
+/* line 50, icon/*.png */
+.icon-sprite, .icon-box, .icon-box1 {
+  background: url('../img/icon-sdbda6275f2.png') no-repeat;
+}
+
+/* line 60, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-box {
+  background-position: 0 -128px;
+}
+
+/* line 60, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.icon-box1 {
+  background-position: 0 0;
+}
+
+/* line 5, ../sass/compass.scss */
+.icon-box-size {
+  height: 128px;
+  width: 128px;
+}
+
+/* line 9, ../sass/compass.scss */
+div {
+  background: url('../img/box.png');
+}

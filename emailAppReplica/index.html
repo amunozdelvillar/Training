@@ -12,8 +12,8 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="stylesheets/font-awesome-4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="stylesheets/style.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
@@ -23,170 +23,172 @@
 
         <!-- Add your site or application content here -->
         <header></header>
-        <main class="l-content">
-            <aside class="l-navigation-side-bar-">
-                <button>COMPOSE NEW MAIL</button>
-                <nav class="l-navigation">
-                    <ul class="l-navigation-options">
-                        <li class="l-navigation-item"><a href="#" class="l-navigation-link">Inbox</a></li>
-                        <li class="l-navigation-item"><a href="#" class="l-navigation-link">Starred</a></li>
-                        <li class="l-navigation-item"><a href="#" class="l-navigation-link">Sent Emails</a></li>
-                        <li class="l-navigation-item"><a href="#" class="l-navigation-link">Drafts</a></li>
-                        <li class="l-navigation-item"><a href="#" class="l-navigation-link">Trash</a></li>
+        <main id="l-content" class="clearfix">
+            <aside id="l-navigation-sidebar">
+                <button class="new-mail-btn fa fa-1">COMPOSE NEW MAIL</button>
+                <nav id="l-navigation">
+                    <ul class="navigation-options">
+                        <li class="navigation-item"><span class="fa fa-inbox"></span><a href="#" class="navigation-link">Inbox</a></li>
+                        <li class="navigation-item"><span class="fa fa-star"></span><a href="#" class="navigation-link">Starred</a></li>
+                        <li class="navigation-item"><span class="fa fa-envelope-o"></span><a href="#" class="navigation-link">Sent Emails</a></li>
+                        <li class="navigation-item"><span class="fa fa-file-text-o"></span><a href="#" class="navigation-link">Drafts</a></li>
+                        <li class="navigation-item"><span class="fa fa-trash-o"></span><a href="#" class="navigation-link">Trash</a></li>
+                        <!--<li id="add-more-opts" class="navigation-item"><span class="fa fa-plus-circle"></span><a href="#" class="navigation-link">Add More</a></li>-->
                     </ul>
-                </nav>
-                <div class="l-add-nav-options">
-                    <a href="#" class="l-navigation-item">Add More</a>
+                <div class="navigation-item">
+                    <a href="#" class="navigation-link"><span class="fa fa-plus-circle"></span>Add More</a>
                 </div>
-                <h3 class="l-personalized-header">Marked</h3>
-                <nav class="l-personalized-nav">
-                    <ul class="l-personalized-nav-options">
-                        <li class="l-personalized-nav-item"><a href="#" class="l-personalized-nav-link">Personal</a></li>
-                        <li class="l-personalized-nav-item"><a href="#" class="l-personalized-nav-link">Work</a></li>
-                        <li class="l-personalized-nav-item"><a href="#" class="l-personalized-nav-link">Social</a></li>
-                        <li class="l-personalized-nav-item"><a href="#" class="l-personalized-nav-link">Family</a></li>
+                    <h3 class="personalized-header">Marked</h3>
+                    <ul class="navigation-options">
+                        <li class="navigation-item"><span class="fa fa-square"></span><a href="#" class="navigation-link">Personal</a></li>
+                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Work</a></li>
+                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Social</a></li>
+                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Family</a></li>
                     </ul>
                 </nav>
             </aside>
             
-            <section class="l-email-list-wrapper">
-                <h1><!--TODO: Verify header-->
+            <section id="l-email-list-wrapper">
+                <header class="section-header">
                     From:
-                </h1>
-                <ol class="l-email-list"><!--TODO: Orderelist date-->
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                </header>
+                <ol class="email-list">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper"> <!--TODO: Use <header>-->
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Dribble</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Dribble</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">Comment on Portfolio in progress</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">Comment on Portfolio in progress</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper">
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Walter White</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Walter White</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">I am the one who knocks!</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">I am the one who knocks!</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sits amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper">
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Hank Moody</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Hank Moody</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">My New Book is being release this month.</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">My New Book is being release this month.</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper">
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Pearl Jam</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Pearl Jam</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">Lightning Bolt is Out!</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">Lightning Bolt is Out!</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper">
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Google Analytics</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Google Analytics</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">New UI for Google Analytics</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">New UI for Google Analytics</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
-                    <li class="l-email-item-wrapper">
-                        <article class="l-email-item">
+                    <li class="email-item-wrapper">
+                        <article class="email-item">
                             <!--TODO: ADD STAR-->
-                            <header class="l-email-author-wrapper">
-                                <input type="checkbox" class="l-email-item-check">
-                                <h2 class="l-email-author" >Envato Marketplaces</h2>
+                            <header class="email-author-wrapper">
+                                <input type="checkbox" class="email-item-check">
+                                <h2 class="email-author" >Envato Marketplaces</h2>
                                 <time datetime="01-10-2014">01/10/2014</time>
                             </header>
-                            <h3 class="l-email-subject">Your request to all earnings has been...</h3>
-                            <p class="l-email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            <h3 class="email-subject">Your request to all earnings has been...</h3>
+                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
                         </article>
                     </li>
                 </ol>
             </section><!-- END EMAIL LIST SECTION-->
             
-            <section class="l-email-wrapper">
-                <nav class="l-email-actions-wrapper">
-                    <ul class="l-email-actions-list">
-                        <li class="l-email-action">
-                            <a href="#" class="l-email-action-link">New</a>
+            <section id="l-email-wrapper">
+                <nav id="l-email-actions-wrapper">
+                    <ul class="email-actions-list">
+                        <li class="email-action">
+                            <a href="#" class="email-action-link">New</a>
                         </li>
-                        <li class="l-email-action">
-                            <a href="#" class="l-email-action-link">Reply</a>
+                        <li class="email-action">
+                            <a href="#" class="email-action-link">Reply</a>
                         </li>
-                        <li class="l-email-action">
-                            <a href="#" class="l-email-action-link">Forward</a>
+                        <li class="email-action">
+                            <a href="#" class="email-action-link">Forward</a>
                         </li>
-                        <li class="l-email-action">
-                            <a href="#" class="l-email-action-link">Delete</a>
+                        <li class="email-action">
+                            <a href="#" class="email-action-link">Delete</a>
                         </li>
-                        <li class="l-email-action">
-                            <a href="#" class="l-email-action-link">Print</a>
+                        <li class="email-action">
+                            <a href="#" class="email-action-link">Print</a>
                         </li>
                     </ul>
                 </nav>
-                <article class="l-email-content">
-                    <h1 class="l-email-content-title">Lightning Bolt is Out!</h1>
-                    <h2 class="l-email-content-meta-info">
-                        <select name="authorDetails" id="authorDetails" class="l-email-content-author">
+                <article id="l-email-content">
+                    <h1 class="email-content-title">Lightning Bolt is Out!</h1>
+                    <h2 class="email-content-meta-info">
+                        <select name="authorDetails" id="authorDetails" class="email-content-author">
                             <option value="Pearl Jam">Pearl Jam</option>
                         </select>
-                        to <span class="l-email-content-receiver"><a class="l-email-content-receiver-link" href="#">info@themesflock.com</a></span><time class="l-email-content-datetime" datetime="01-10-2014">01/10/2014</time>
+                        to <span class="email-content-receiver"><a class="email-content-receiver-link" href="#">info@themesflock.com</a></span><time class="email-content-datetime" datetime="01-10-2014">01/10/2014</time>
                     </h2>
-                    <div class="l-email-content-body">
+                    <div id="l-email-content-body">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nam ex quos illo temporibus aliquam praesentium labore sed soluta error beatae alias ea, suscipit laboriosam, rem delectus, repellendus illum similique.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur vero, itaque laboriosam ab animi et aut odio earum eum magnam nobis, recusandae mollitia vitae cupiditate quis cumque modi autem rem.</p>
-                        <img src="http://placehold.it/300x150" alt="derp.jpg" class="l-email-content-img">
+                        <img src="http://placehold.it/300x150" alt="derp.jpg" class="email-content-img">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat aliquid quidem autem assumenda quos voluptates veniam harum similique, praesentium mollitia, libero alias? Obcaecati delectus, distinctio beatae in dolore voluptas vero!</p>
-                        <textarea placeholder="Click Here to Reply"></textarea>
+                        <textarea class="email-content-reply" placeholder="Click Here to Reply"></textarea>
                     </div>
                 </article>
             </section><!--END EMAIL CONTENT -->
-            <aside class="l-email-contacts-wrapper">
-                <h1 class="l-email-contacts-header">Contacts Online(<span class="l-email-online-contacts">38</span>)</h1>
-                <ul class="l-email-contact-list">
-                    <li class="l-email-contact-list-item">Walter White</li>
-                    <li class="l-email-contact-list-item">Jessie Pinkman</li>
-                    <li class="l-email-contact-list-item">Hank Moody</li>
-                    <li class="l-email-contact-list-item">Saul Goodman</li>
-                    <li class="l-email-contact-list-item">Eddie Vedder</li>
-                    <li class="l-email-contact-list-item">Snoop Dogg</li>
-                    <li class="l-email-contact-list-item">Sherlock Holmes</li>
-                    <li class="l-email-contact-list-item">Doge</li>
-                    <li class="l-email-contact-list-item">Brad Pitt</li>
-                    <li class="l-email-contact-list-item">Gustavo Fringe</li>
-                    <li class="l-email-contact-list-item">Jim Carrey</li>
-                    <li class="l-email-contact-list-item">Adam Sandler</li>
-                    <li class="l-email-contact-list-item">Layne Stanley</li>
-                    <li class="l-email-contact-list-item">Eric Cartman</li>
-                    <li class="l-email-contact-list-item">Randy Marsh</li>
-                    <li class="l-email-contact-list-item">Jimmy</li>
-                    <li class="l-email-contact-list-item">Slash</li>
-                    <li class="l-email-contact-list-item">Bruce Wayne</li>
+            <aside id="l-email-contacts-wrapper">
+                <h1 class="email-contacts-header">Contacts Online(<span class="email-online-contacts">38</span>)</h1>
+                <ul class="email-contact-list">
+                    <li class="email-contact-list-item">Walter White</li>
+                    <li class="email-contact-list-item">Jessie Pinkman</li>
+                    <li class="email-contact-list-item">Hank Moody</li>
+                    <li class="email-contact-list-item">Saul Goodman</li>
+                    <li class="email-contact-list-item">Eddie Vedder</li>
+                    <li class="email-contact-list-item">Snoop Dogg</li>
+                    <li class="email-contact-list-item">Sherlock Holmes</li>
+                    <li class="email-contact-list-item">Doge</li>
+                    <li class="email-contact-list-item">Brad Pitt</li>
+                    <li class="email-contact-list-item">Gustavo Fringe</li>
+                    <li class="email-contact-list-item">Jim Carrey</li>
+                    <li class="email-contact-list-item">Adam Sandler</li>
+                    <li class="email-contact-list-item">Layne Stanley</li>
+                    <li class="email-contact-list-item">Eric Cartman</li>
+                    <li class="email-contact-list-item">Randy Marsh</li>
+                    <li class="email-contact-list-item">Jimmy</li>
+                    <li class="email-contact-list-item">Slash</li>
+                    <li class="email-contact-list-item">Bruce Wayne</li>
+                    <li class="email-contact-list-item">Archer</li>
+                    <li class="email-contact-list-item">Tony Stark</li>
+                    <li class="email-contact-list-item">Bruce Banner</li>
                 </ul>
             </aside>
         </main>

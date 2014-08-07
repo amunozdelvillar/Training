@@ -1,0 +1,6 @@
+$red: #ff0505;
+
+p {
+    $red: red !default;
+    background-color:$red;
+}

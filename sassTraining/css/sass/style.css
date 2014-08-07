@@ -1,0 +1,20 @@
+body {
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 14px; }
+
+.box, .important, .success {
+  margin: 0 auto 25px;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 6px; }
+
+.important, .success {
+  background-color: orange;
+  border-color: blue; }
+  .important em, .success em {
+    text-decoration: underline; }
+
+.success {
+  background-color: green;
+  border-color: black; }

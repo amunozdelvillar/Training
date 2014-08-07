@@ -1,0 +1,30 @@
+/* line 1, ../sass/style.scss */
+body {
+  padding: 30px;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+/* line 7, ../sass/style.scss */
+.box, .important, .success {
+  margin: 0 auto 25px;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* line 14, ../sass/style.scss */
+.important, .success {
+  background-color: orange;
+  border-color: blue;
+}
+/* line 18, ../sass/style.scss */
+.important em, .success em {
+  text-decoration: underline;
+}
+
+/* line 23, ../sass/style.scss */
+.success {
+  background-color: green;
+  border-color: black;
+}
