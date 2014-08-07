@@ -4,6 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+        <link rel="stylesheet" type="text/css" href="emailAppReplica/sass/_layout.scss"/>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title></title>
@@ -22,7 +23,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <header></header>
+        <header id="banner"></header>
         <main id="l-content" class="clearfix">
             <aside id="l-navigation-sidebar">
                 <button class="new-mail-btn fa fa-1">COMPOSE NEW MAIL</button>
@@ -40,10 +41,10 @@
                 </div>
                     <h3 class="personalized-header">Marked</h3>
                     <ul class="navigation-options">
-                        <li class="navigation-item"><span class="fa fa-square"></span><a href="#" class="navigation-link">Personal</a></li>
-                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Work</a></li>
-                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Social</a></li>
-                        <li class="navigation-item"><span class="fa fa-square"><a href="#" class="navigation-link">Family</a></li>
+                        <li class="navigation-item"><span class="fa fa-square purple"></span><a href="#" class="navigation-link">Personal</a></li>
+                        <li class="navigation-item"><span class="fa fa-square emerald"><a href="#" class="navigation-link">Work</a></li>
+                        <li class="navigation-item"><span class="fa fa-square bright-orange"><a href="#" class="navigation-link">Social</a></li>
+                        <li class="navigation-item"><span class="fa fa-square blue-sky"><a href="#" class="navigation-link">Family</a></li>
                     </ul>
                 </nav>
             </aside>
@@ -54,77 +55,114 @@
                 </header>
                 <ol class="email-list">
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Dribble</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">Comment on Portfolio in progress</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star gold"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Dribble</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">Comment on Portfolio in progress</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Walter White</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">I am the one who knocks!</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sits amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star light-blue"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Walter White</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">I am the one who knocks!</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Hank Moody</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">My New Book is being release this month.</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star light-blue"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Hank Moody</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">My New Book is being released this month</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Pearl Jam</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">Lightning Bolt is Out!</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star light-blue"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Pearl Jam</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">Lightning Bolt is out!</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Google Analytics</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">New UI for Google Analytics</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star light-blue"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Google Analytics</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">New UI for Google Analytics</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
                     <li class="email-item-wrapper">
-                        <article class="email-item">
-                            <!--TODO: ADD STAR-->
-                            <header class="email-author-wrapper">
+                        <article class="email-item clearfix">
+                            <div class="check-star-wrapper">
                                 <input type="checkbox" class="email-item-check">
-                                <h2 class="email-author" >Envato Marketplaces</h2>
-                                <time datetime="01-10-2014">01/10/2014</time>
-                            </header>
-                            <h3 class="email-subject">Your request to all earnings has been...</h3>
-                            <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                                <span class="fa fa-star light-blue"></span>
+                            </div>
+                            <div class="email-content-preview-wrapper">
+                                <header class="email-author-wrapper">
+                                    <h2 class="email-author" >Envato Marketplace</h2>
+                                    <time class="email-time" datetime="01-10-2014">01/10/2014</time>
+                                </header>
+
+                                <h3 class="email-subject">Your request for all earnings has been...</h3>
+                                <p class="email-content-preview">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente tenetur, nobis magni. Iste delectus!</p>
+                            </div>
+
                         </article>
                     </li>
+
                 </ol>
             </section><!-- END EMAIL LIST SECTION-->
             

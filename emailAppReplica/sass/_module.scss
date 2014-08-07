@@ -65,3 +65,70 @@
 .navigation-link:hover {
   text-decoration:underline;
 }
+
+/*
+ * Email list
+ */
+.section-header {
+  background-color:#f6f9fe;
+  border: 1px solid #d7e3ef;
+  color:#97b2cf;
+  font-size: 0.7em;
+  padding: 5px;
+}
+
+.email-list {
+  list-style: none;
+  padding: 5px 0 5px;
+  margin: 0;
+  overflow: scroll;
+}
+
+.email-item{
+  margin: 5px;
+  padding-left: 0;
+}
+
+
+.check-star-wrapper {
+  vertical-align: top;
+  float:left;
+  width:15%;
+}
+
+.email-content-preview-wrapper {
+  float:right;
+  width:85%;
+}
+.email-author-wrapper {
+  vertical-align: top;
+  margin:0;
+}
+
+.email-author {
+  display:inline;
+  font-size: 0.9em;
+  color:#708aab;
+}
+
+.email-time {
+  font-size: 0.8em;
+  float:right;
+  padding-right: 5px;
+  color:#6e8ba9;
+}
+
+.email-subject {
+  font-size: 0.75em;
+  color:#7b96b1;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+.email-content-preview {
+  font-size: 0.7em;
+  color:#9caec2;
+  margin:5px 0;
+}
+
+

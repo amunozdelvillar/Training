@@ -658,12 +658,17 @@ body {
 }
 
 /* line 1, ../sass/_layout.scss */
+#banner {
+  height: 100px;
+}
+
+/* line 5, ../sass/_layout.scss */
 #l-content {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 6, ../sass/_layout.scss */
+/* line 10, ../sass/_layout.scss */
 #l-navigation-sidebar {
   vertical-align: top;
   width: 15%;
@@ -671,22 +676,22 @@ body {
   background-color: #444c63;
 }
 
-/* line 13, ../sass/_layout.scss */
+/* line 17, ../sass/_layout.scss */
 #l-navigation {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 18, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 #l-email-list-wrapper {
   vertical-align: top;
   width: 25%;
   display: inline-block;
-  background-color: red;
+  background-color: #ffffff;
   margin: 0;
 }
 
-/* line 26, ../sass/_layout.scss */
+/* line 30, ../sass/_layout.scss */
 #l-email-wrapper {
   vertical-align: top;
   width: 40%;
@@ -694,7 +699,7 @@ body {
   background-color: green;
 }
 
-/* line 33, ../sass/_layout.scss */
+/* line 37, ../sass/_layout.scss */
 #l-email-contacts-wrapper {
   vertical-align: top;
   width: 15%;
@@ -761,6 +766,114 @@ body {
 /* line 65, ../sass/_module.scss */
 .navigation-link:hover {
   text-decoration: underline;
+}
+
+/*
+ * Email list
+ */
+/* line 72, ../sass/_module.scss */
+.section-header {
+  background-color: #f6f9fe;
+  border: 1px solid #d7e3ef;
+  color: #97b2cf;
+  font-size: 0.7em;
+  padding: 5px;
+}
+
+/* line 80, ../sass/_module.scss */
+.email-list {
+  list-style: none;
+  padding: 5px 0 5px;
+  margin: 0;
+  overflow: scroll;
+}
+
+/* line 87, ../sass/_module.scss */
+.email-item {
+  margin: 5px;
+  padding-left: 0;
+}
+
+/* line 93, ../sass/_module.scss */
+.check-star-wrapper {
+  vertical-align: top;
+  float: left;
+  width: 15%;
+}
+
+/* line 99, ../sass/_module.scss */
+.email-content-preview-wrapper {
+  float: right;
+  width: 85%;
+}
+
+/* line 103, ../sass/_module.scss */
+.email-author-wrapper {
+  vertical-align: top;
+  margin: 0;
+}
+
+/* line 108, ../sass/_module.scss */
+.email-author {
+  display: inline;
+  font-size: 0.9em;
+  color: #708aab;
+}
+
+/* line 114, ../sass/_module.scss */
+.email-time {
+  font-size: 0.8em;
+  float: right;
+  padding-right: 5px;
+  color: #6e8ba9;
+}
+
+/* line 121, ../sass/_module.scss */
+.email-subject {
+  font-size: 0.75em;
+  color: #7b96b1;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+/* line 128, ../sass/_module.scss */
+.email-content-preview {
+  font-size: 0.7em;
+  color: #9caec2;
+  margin: 5px 0;
+}
+
+/*
+ * Icon Colors
+ */
+/* line 4, ../sass/_page.scss */
+.gold {
+  color: gold;
+}
+
+/* line 8, ../sass/_page.scss */
+.light-blue {
+  color: #cdd7e3;
+}
+
+/* line 12, ../sass/_page.scss */
+.purple {
+  color: #7873cf;
+}
+
+/* line 16, ../sass/_page.scss */
+.emerald {
+  color: #01caa0;
+}
+
+/* line 20, ../sass/_page.scss */
+.bright-orange {
+  color: #fc4325;
+}
+
+/* line 24, ../sass/_page.scss */
+.blue-sky {
+  color: #01aef0;
 }
 
 /* ==========================================================================
