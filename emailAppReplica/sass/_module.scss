@@ -69,6 +69,8 @@
 /*
  * Email list
  */
+
+
 .section-header {
   background-color:#f6f9fe;
   border: 1px solid #d7e3ef;
@@ -131,4 +133,29 @@
   margin:5px 0;
 }
 
+/*
+ * EMAIL CONTENT
+ */
 
+.email-actions-list {
+  margin-top: 0;
+  padding: 5px 0 5px;
+  font-size: 0.7em;
+  border: 1px solid #d7e3f1;
+}
+
+.email-action {
+  display:inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #d7e3f1;
+
+}
+
+.email-action-link {
+  color:#98b3ce;
+  text-decoration:none;
+}
+
+.email-action-link:hover {
+  text-decoration:underline;
+}

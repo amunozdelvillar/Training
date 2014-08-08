@@ -700,6 +700,12 @@ body {
 }
 
 /* line 37, ../sass/_layout.scss */
+#l-email-actions-wrapper {
+  vertical-align: top;
+  background-color: #ffffff;
+}
+
+/* line 42, ../sass/_layout.scss */
 #l-email-contacts-wrapper {
   vertical-align: top;
   width: 15%;
@@ -771,7 +777,7 @@ body {
 /*
  * Email list
  */
-/* line 72, ../sass/_module.scss */
+/* line 74, ../sass/_module.scss */
 .section-header {
   background-color: #f6f9fe;
   border: 1px solid #d7e3ef;
@@ -780,7 +786,7 @@ body {
   padding: 5px;
 }
 
-/* line 80, ../sass/_module.scss */
+/* line 82, ../sass/_module.scss */
 .email-list {
   list-style: none;
   padding: 5px 0 5px;
@@ -788,39 +794,39 @@ body {
   overflow: scroll;
 }
 
-/* line 87, ../sass/_module.scss */
+/* line 89, ../sass/_module.scss */
 .email-item {
   margin: 5px;
   padding-left: 0;
 }
 
-/* line 93, ../sass/_module.scss */
+/* line 95, ../sass/_module.scss */
 .check-star-wrapper {
   vertical-align: top;
   float: left;
   width: 15%;
 }
 
-/* line 99, ../sass/_module.scss */
+/* line 101, ../sass/_module.scss */
 .email-content-preview-wrapper {
   float: right;
   width: 85%;
 }
 
-/* line 103, ../sass/_module.scss */
+/* line 105, ../sass/_module.scss */
 .email-author-wrapper {
   vertical-align: top;
   margin: 0;
 }
 
-/* line 108, ../sass/_module.scss */
+/* line 110, ../sass/_module.scss */
 .email-author {
   display: inline;
   font-size: 0.9em;
   color: #708aab;
 }
 
-/* line 114, ../sass/_module.scss */
+/* line 116, ../sass/_module.scss */
 .email-time {
   font-size: 0.8em;
   float: right;
@@ -828,7 +834,7 @@ body {
   color: #6e8ba9;
 }
 
-/* line 121, ../sass/_module.scss */
+/* line 123, ../sass/_module.scss */
 .email-subject {
   font-size: 0.75em;
   color: #7b96b1;
@@ -836,11 +842,40 @@ body {
   margin: 5px 0;
 }
 
-/* line 128, ../sass/_module.scss */
+/* line 130, ../sass/_module.scss */
 .email-content-preview {
   font-size: 0.7em;
   color: #9caec2;
   margin: 5px 0;
+}
+
+/*
+ * EMAIL CONTENT
+ */
+/* line 140, ../sass/_module.scss */
+.email-actions-list {
+  margin-top: 0;
+  padding: 5px 0 5px;
+  font-size: 0.7em;
+  border: 1px solid #d7e3f1;
+}
+
+/* line 147, ../sass/_module.scss */
+.email-action {
+  display: inline-block;
+  padding: 0 5px;
+  border-right: 1px solid #d7e3f1;
+}
+
+/* line 154, ../sass/_module.scss */
+.email-action-link {
+  color: #98b3ce;
+  text-decoration: none;
+}
+
+/* line 159, ../sass/_module.scss */
+.email-action-link:hover {
+  text-decoration: underline;
 }
 
 /*
@@ -874,6 +909,11 @@ body {
 /* line 24, ../sass/_page.scss */
 .blue-sky {
   color: #01aef0;
+}
+
+/* line 28, ../sass/_page.scss */
+.blue {
+  color: #98b3ce;
 }
 
 /* ==========================================================================
