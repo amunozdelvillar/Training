@@ -159,3 +159,53 @@
 .email-action-link:hover {
   text-decoration:underline;
 }
+
+/*
+ * EMAIL CONTENT SPECIFIC
+ */
+.email-content-title {
+  font-weight: normal;
+  text-align: left;
+  color:#6e8ca8;
+  font-size: 1.5em;
+  outline: 0;
+}
+
+.email-content-meta-info {
+  font-size: 0.7em;
+  font-weight: normal;
+  color:#708ba8;
+}
+
+.email-content-author {
+  border-radius: 5px;
+  background-color:#cdd6e7;
+  border-color:#cdd6e7;
+  color:#ffffff;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 3px 5px;
+}
+
+.email-content-receiver-link {
+  color:#708ba8;
+  text-decoration:none;
+}
+
+.email-content-datetime {
+  float:right;
+  margin-top:4px;
+}
+
+.email-content-reply {
+  width:95%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+
+::-webkit-input-placeholder{
+  color:#6f8aa5;
+}

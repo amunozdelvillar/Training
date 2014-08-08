@@ -696,16 +696,24 @@ body {
   vertical-align: top;
   width: 40%;
   display: inline-block;
-  background-color: green;
+  background-color: #ffffff;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color: #8ca2ba;
 }
 
-/* line 37, ../sass/_layout.scss */
+/* line 40, ../sass/_layout.scss */
+#l-email-content-body {
+  font-size: 0.9em;
+}
+
+/* line 44, ../sass/_layout.scss */
 #l-email-actions-wrapper {
   vertical-align: top;
   background-color: #ffffff;
 }
 
-/* line 42, ../sass/_layout.scss */
+/* line 49, ../sass/_layout.scss */
 #l-email-contacts-wrapper {
   vertical-align: top;
   width: 15%;
@@ -879,6 +887,62 @@ body {
 }
 
 /*
+ * EMAIL CONTENT SPECIFIC
+ */
+/* line 166, ../sass/_module.scss */
+.email-content-title {
+  font-weight: normal;
+  text-align: left;
+  color: #6e8ca8;
+  font-size: 1.5em;
+  outline: 0;
+}
+
+/* line 174, ../sass/_module.scss */
+.email-content-meta-info {
+  font-size: 0.7em;
+  font-weight: normal;
+  color: #708ba8;
+}
+
+/* line 180, ../sass/_module.scss */
+.email-content-author {
+  border-radius: 5px;
+  background-color: #cdd6e7;
+  border-color: #cdd6e7;
+  color: #ffffff;
+  font-size: 0.85em;
+  font-weight: bold;
+  padding: 3px 5px;
+}
+
+/* line 190, ../sass/_module.scss */
+.email-content-receiver-link {
+  color: #708ba8;
+  text-decoration: none;
+}
+
+/* line 195, ../sass/_module.scss */
+.email-content-datetime {
+  float: right;
+  margin-top: 4px;
+}
+
+/* line 200, ../sass/_module.scss */
+.email-content-reply {
+  width: 95%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 0 10px;
+  font-style: italic;
+}
+
+/* line 209, ../sass/_module.scss */
+::-webkit-input-placeholder {
+  color: #6f8aa5;
+}
+
+/*
  * Icon Colors
  */
 /* line 4, ../sass/_page.scss */
@@ -912,8 +976,13 @@ body {
 }
 
 /* line 28, ../sass/_page.scss */
-.blue {
+.blue-theme {
   color: #98b3ce;
+}
+
+/* line 32, ../sass/_page.scss */
+.blue-theme-dark {
+  color: #98b4cc;
 }
 
 /* ==========================================================================

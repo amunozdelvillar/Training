@@ -31,7 +31,14 @@
   vertical-align: top;
   width:40%;
   display:inline-block;
-  background-color:green;
+  background-color:#ffffff;
+  padding: 0 20px;
+  box-sizing: border-box;
+  color:#8ca2ba;
+}
+
+#l-email-content-body {
+  font-size:0.9em;
 }
 
 #l-email-actions-wrapper {
