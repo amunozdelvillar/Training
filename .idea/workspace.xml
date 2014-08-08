@@ -4,10 +4,8 @@
     <list default="true" id="1a54df41-f1d5-4823-9948-687cbc1be91d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/index.html" afterPath="$PROJECT_DIR$/emailAppReplica/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" afterPath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -36,12 +34,9 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.32" vertical-offset="540" max-vertical-offset="1984">
-              <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
-              <folding>
-                <element signature="tag#aside#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-                <element signature="tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="-18.76" vertical-offset="3259" max-vertical-offset="4176">
+              <caret line="233" column="34" selection-start-line="233" selection-start-column="34" selection-end-line="233" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,8 +44,8 @@
       <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.6" vertical-offset="383" max-vertical-offset="976">
-              <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+            <state vertical-scroll-proportion="-17.96" vertical-offset="383" max-vertical-offset="992">
+              <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -59,8 +54,8 @@
       <file leaf-file-name="_module.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7571669" vertical-offset="2815" max-vertical-offset="3472">
-              <caret line="204" column="19" selection-start-line="204" selection-start-column="19" selection-end-line="204" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.81112987" vertical-offset="3439" max-vertical-offset="4096">
+              <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -91,17 +86,17 @@
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_base.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_helper.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" />
-        <option value="$PROJECT_DIR$/emailAppReplica/index.html" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/emailAppReplica/index.html" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1280" />
-    <option name="y" value="-4" />
-    <option name="width" value="1366" />
-    <option name="height" value="772" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -129,6 +124,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,7 +178,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -320,7 +315,7 @@
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="ToolWindowManager">
-    <frame x="1280" y="-4" width="1366" height="772" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -329,7 +324,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17274758" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18153365" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -337,12 +332,33 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32253087" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18153365" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-    </layout>
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.rb" />
@@ -369,12 +385,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3040" max-vertical-offset="4176">
+          <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="976">
+          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_module.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2815" max-vertical-offset="3472">
+          <caret line="191" column="23" selection-start-line="191" selection-start-column="23" selection-end-line="191" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4096">
           <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding>
-            <element signature="tag#aside#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -390,10 +427,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="928" max-vertical-offset="4096">
           <caret line="58" column="31" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
-          <folding>
-            <element signature="tag#aside#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -409,10 +443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3488">
           <caret line="61" column="2" selection-start-line="61" selection-start-column="2" selection-end-line="61" selection-end-column="2" />
-          <folding>
-            <element signature="tag#aside#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -569,33 +600,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8634064" vertical-offset="0" max-vertical-offset="624">
           <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.96" vertical-offset="383" max-vertical-offset="992">
+          <caret line="52" column="28" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.32" vertical-offset="540" max-vertical-offset="1984">
-          <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
-          <folding>
-            <element signature="tag#aside#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#section#0;tag#main#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.6" vertical-offset="383" max-vertical-offset="976">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
+        <state vertical-scroll-proportion="-18.76" vertical-offset="3259" max-vertical-offset="4176">
+          <caret line="233" column="34" selection-start-line="233" selection-start-column="34" selection-end-line="233" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7571669" vertical-offset="2815" max-vertical-offset="3472">
-          <caret line="204" column="19" selection-start-line="204" selection-start-column="19" selection-end-line="204" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.81112987" vertical-offset="3439" max-vertical-offset="4096">
+          <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="20" />
           <folding />
         </state>
       </provider>

@@ -209,3 +209,43 @@
 ::-webkit-input-placeholder{
   color:#6f8aa5;
 }
+
+/*
+ * CONTACT LIST
+ */
+
+.email-contacts-header {
+  background-color:#f6f9fe;
+  margin:0;
+  font-size: 0.7em;
+  padding: 5px;
+  font-weight: normal;
+  border: 1px solid #d7e3ef;
+  color:#94b4cd;
+}
+
+.email-contact-list {
+  font-size:0.8em;
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+.email-contact-list {
+  color:#6f8caa;
+}
+
+.email-contact-list-item {
+  padding: 5px 30px 5px;
+  font-size: 0.7em;
+  display:block;
+}
+
+.email-contact-list-item:before {
+  content:"\f111";
+  padding-right: 5px;
+}
+
+.email-contact-list-item:nth-child(2n+1){
+  background-color:#f6f9fe;
+}

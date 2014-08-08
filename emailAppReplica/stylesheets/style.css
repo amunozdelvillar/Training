@@ -664,7 +664,7 @@ body {
 
 /* line 5, ../sass/_layout.scss */
 #l-content {
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -718,7 +718,7 @@ body {
   vertical-align: top;
   width: 15%;
   display: inline-block;
-  background-color: orange;
+  background-color: #ffffff;
 }
 
 /*
@@ -940,6 +940,51 @@ body {
 /* line 209, ../sass/_module.scss */
 ::-webkit-input-placeholder {
   color: #6f8aa5;
+}
+
+/*
+ * CONTACT LIST
+ */
+/* line 217, ../sass/_module.scss */
+.email-contacts-header {
+  background-color: #f6f9fe;
+  margin: 0;
+  font-size: 0.7em;
+  padding: 5px;
+  font-weight: normal;
+  border: 1px solid #d7e3ef;
+  color: #94b4cd;
+}
+
+/* line 227, ../sass/_module.scss */
+.email-contact-list {
+  font-size: 0.8em;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 234, ../sass/_module.scss */
+.email-contact-list {
+  color: #6f8caa;
+}
+
+/* line 238, ../sass/_module.scss */
+.email-contact-list-item {
+  padding: 5px 30px 5px;
+  font-size: 0.7em;
+  display: block;
+}
+
+/* line 244, ../sass/_module.scss */
+.email-contact-list-item:before {
+  content: "\f111";
+  padding-right: 5px;
+}
+
+/* line 249, ../sass/_module.scss */
+.email-contact-list-item:nth-child(2n+1) {
+  background-color: #f6f9fe;
 }
 
 /*
