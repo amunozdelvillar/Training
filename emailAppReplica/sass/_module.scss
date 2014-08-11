@@ -13,7 +13,7 @@
   border:none;
   font-size: 0.5em;
   padding: 10px;
-  font-weight: 700;
+  font-weight: bold;
   width:90%;
   margin: 10px 10px 0;
 }
@@ -181,6 +181,9 @@
   font-weight: bold;
   padding: 3px 5px;
 }
+.email-content-author > option {
+  color:#fffff;
+}
 
 .email-content-receiver-link {
   color:#708ba8;
@@ -242,14 +245,14 @@
   display:block;
 }
 
-//TODO:Maybe not a pseudo-element and use span instead
-.email-contact-list-item:before {
-  content:"\f111";
-  padding-right: 5px;
-  color:#01caa0;
-}
+////TODO:Maybe not a pseudo-element and use span instead
+//.email-contact-list-item:before {
+//  content:"\f111";
+//  color:#01caa0;
+//}
 
 .email-contact-list-link {
+  padding-left: 5px;
   color:#6f8caa;
   text-decoration:none;
 }

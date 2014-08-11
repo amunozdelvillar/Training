@@ -49,6 +49,34 @@
   border-left: 5px solid #00adef;
 }
 
+/*
+ * ADD MORE
+ */
+div.navigation-item {
+ border-top: 1px solid #2f3649;
+ border-bottom: 1px solid #2f3649;
+ box-sizing: border-box;
+}
 .active-email-pre {
   background-color: #f2f5fa;
+}
+
+/*
+ * CONTACTS
+ */
+
+.available {
+  color:#76d181;
+}
+
+.away {
+  color:#feac02;
+}
+
+.dont-disturb {
+  color:#d8360f;
+}
+
+.offline {
+  color:#cbd4e3;
 }
