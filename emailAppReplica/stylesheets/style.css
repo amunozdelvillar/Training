@@ -1055,27 +1055,22 @@ body {
   background-color: #2f3649;
 }
 
-/* line 17, ../sass/_state.scss */
-.email-item-wrapper:hover {
-  background-color: #f2f5fa;
-}
-
-/* line 21, ../sass/_state.scss */
+/* line 18, ../sass/_state.scss */
 .navigation-item:link {
   background-color: #ffffff;
 }
 
-/* line 25, ../sass/_state.scss */
+/* line 22, ../sass/_state.scss */
 .navigation-link:hover {
   text-decoration: underline;
 }
 
-/* line 29, ../sass/_state.scss */
+/* line 26, ../sass/_state.scss */
 .email-action-link:hover {
   text-decoration: underline;
 }
 
-/* line 33, ../sass/_state.scss */
+/* line 30, ../sass/_state.scss */
 .email-contact-list-link:hover {
   text-decoration: underline;
 }
@@ -1181,6 +1176,33 @@ div.navigation-item {
 /* line 82, ../sass/_page.scss */
 .offline {
   color: #cbd4e3;
+}
+
+/*
+ * NOTIFICATIONS
+ */
+/* line 89, ../sass/_page.scss */
+.important-notification:after {
+  float: right;
+  display: block;
+  content: "8";
+  width: 20px;
+  height: 20px;
+  background-color: #ef4949;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* line 100, ../sass/_page.scss */
+.notification:after {
+  float: right;
+  display: block;
+  content: "3";
+  width: 20px;
+  height: 20px;
+  background-color: #2f3649;
+  text-align: center;
+  border-radius: 5px;
 }
 
 /* ==========================================================================
