@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a54df41-f1d5-4823-9948-687cbc1be91d" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_state.scssc" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_base.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_base.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_base.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_base.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_state.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_state.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/index.html" afterPath="$PROJECT_DIR$/emailAppReplica/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" afterPath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,8 +40,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0545454" vertical-offset="3306" max-vertical-offset="4208">
-              <caret line="224" column="104" selection-start-line="224" selection-start-column="104" selection-end-line="224" selection-end-column="104" />
+            <state vertical-scroll-proportion="-1.7454545" vertical-offset="1680" max-vertical-offset="4208">
+              <caret line="111" column="73" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -54,8 +60,8 @@
       <file leaf-file-name="_base.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.44" vertical-offset="949" max-vertical-offset="2112">
-              <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+            <state vertical-scroll-proportion="-21.16" vertical-offset="1519" max-vertical-offset="2160">
+              <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -64,18 +70,18 @@
       <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.64" vertical-offset="144" max-vertical-offset="1248">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state vertical-scroll-proportion="-1.7454545" vertical-offset="0" max-vertical-offset="1248">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_module.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_module.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7571669" vertical-offset="2479" max-vertical-offset="4272">
-              <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+            <state vertical-scroll-proportion="-11.254545" vertical-offset="85" max-vertical-offset="4352">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -84,8 +90,18 @@
       <file leaf-file-name="_page.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_page.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.6" vertical-offset="719" max-vertical-offset="1392">
-              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+            <state vertical-scroll-proportion="-12.2" vertical-offset="687" max-vertical-offset="1424">
+              <caret line="62" column="27" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_state.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_state.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45868465" vertical-offset="0" max-vertical-offset="640">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -114,12 +130,12 @@
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_common.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/style.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_helper.scss" />
-        <option value="$PROJECT_DIR$/emailAppReplica/sass/_base.scss" />
-        <option value="$PROJECT_DIR$/emailAppReplica/sass/_state.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" />
+        <option value="$PROJECT_DIR$/emailAppReplica/sass/_base.scss" />
+        <option value="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" />
         <option value="$PROJECT_DIR$/emailAppReplica/index.html" />
-        <option value="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
+        <option value="$PROJECT_DIR$/emailAppReplica/sass/_state.scss" />
       </list>
     </option>
   </component>
@@ -369,7 +385,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32150537" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31944445" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -732,58 +748,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_base.scss">
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-32.44" vertical-offset="949" max-vertical-offset="2112">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        <state vertical-scroll-proportion="-1.7454545" vertical-offset="0" max-vertical-offset="1248">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_state.scss">
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4856661" vertical-offset="0" max-vertical-offset="593">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        <state vertical-scroll-proportion="-21.16" vertical-offset="1519" max-vertical-offset="2160">
+          <caret line="128" column="1" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13490725" vertical-offset="0" max-vertical-offset="593">
+        <state vertical-scroll-proportion="0.14084508" vertical-offset="0" max-vertical-offset="568">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.6" vertical-offset="719" max-vertical-offset="1392">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.64" vertical-offset="144" max-vertical-offset="1248">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0545454" vertical-offset="3306" max-vertical-offset="4208">
-          <caret line="224" column="104" selection-start-line="224" selection-start-column="104" selection-end-line="224" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7571669" vertical-offset="2479" max-vertical-offset="4272">
-          <caret line="183" column="22" selection-start-line="183" selection-start-column="22" selection-end-line="183" selection-end-column="22" />
+        <state vertical-scroll-proportion="-11.254545" vertical-offset="85" max-vertical-offset="4352">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7454545" vertical-offset="1680" max-vertical-offset="4208">
+          <caret line="111" column="73" selection-start-line="111" selection-start-column="73" selection-end-line="111" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.2" vertical-offset="687" max-vertical-offset="1424">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_state.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45868465" vertical-offset="0" max-vertical-offset="640">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding />
         </state>
       </provider>

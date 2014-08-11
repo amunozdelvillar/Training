@@ -11,11 +11,11 @@
   color:white;
   background-color:#01caa0;
   border:none;
-  font-size: 0.5em;
+  font-size: 0.7em;
   padding: 10px;
   font-weight: bold;
-  width:90%;
-  margin: 10px 10px 0;
+  width:70%;
+  margin: 10px 20px 0;
 }
 
 
@@ -36,15 +36,13 @@
 .navigation-item {
   color:#d7e3f0;
   font-size:0.9em;
-  width:90%;
-  margin: auto;
-  padding: 5px 0;
+  padding: 5px 20px;
 }
 
 .personalized-header {
   color:#d7e3f0;
   font-size:0.9em;
-  padding-left: 5px;
+  padding-left: 20px;
   text-decoration:none;
   font-weight: normal;
 }
@@ -77,7 +75,7 @@
   margin: 0;
   overflow-y: scroll;
   overflow-x: hidden;
-  height:92.5%;
+  height:95.5%;
 }
 
 .email-item{
@@ -107,6 +105,13 @@
   display:inline;
   font-size: 0.9em;
   color:#708aab;
+  background:#ffffff url(../img/select-arrow.png) no-repeat 90% center;
+}
+.email-content-author {
+  -webkit-appearance: none;  /*Removes default chrome and safari style*/
+  -moz-appearance: none; /* Removes Default Firefox style*/
+  background:#ffffff url(../img/select-arrow.png) no-repeat 90% center;
+  width: 100px;
 }
 
 .email-time {

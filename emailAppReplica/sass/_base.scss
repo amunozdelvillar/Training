@@ -123,4 +123,7 @@ body {
 ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
   background-color: #6e8ba9;
+  border: 3px solid transparent;
+  background-clip: content-box;
+
 }

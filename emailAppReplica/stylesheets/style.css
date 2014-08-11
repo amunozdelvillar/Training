@@ -673,6 +673,8 @@ body {
 ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   background-color: #6e8ba9;
+  border: 3px solid transparent;
+  background-clip: content-box;
 }
 
 /* line 1, ../sass/_layout.scss */
@@ -701,8 +703,8 @@ body {
 
 /* line 22, ../sass/_layout.scss */
 #l-navigation {
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
 }
 
 /* line 27, ../sass/_layout.scss */
@@ -770,11 +772,11 @@ body {
   color: white;
   background-color: #01caa0;
   border: none;
-  font-size: 0.5em;
+  font-size: 0.7em;
   padding: 10px;
   font-weight: bold;
-  width: 90%;
-  margin: 10px 10px 0;
+  width: 70%;
+  margin: 10px 20px 0;
 }
 
 /* line 23, ../sass/_module.scss */
@@ -787,21 +789,19 @@ body {
 .navigation-item {
   color: #d7e3f0;
   font-size: 0.9em;
-  width: 90%;
-  margin: auto;
-  padding: 5px 0;
+  padding: 5px 20px;
 }
 
-/* line 44, ../sass/_module.scss */
+/* line 42, ../sass/_module.scss */
 .personalized-header {
   color: #d7e3f0;
   font-size: 0.9em;
-  padding-left: 5px;
+  padding-left: 20px;
   text-decoration: none;
   font-weight: normal;
 }
 
-/* line 52, ../sass/_module.scss */
+/* line 50, ../sass/_module.scss */
 .navigation-link {
   color: #d7e3f0;
   font-size: 0.9em;
@@ -812,7 +812,7 @@ body {
 /*
  * Email list
  */
-/* line 66, ../sass/_module.scss */
+/* line 64, ../sass/_module.scss */
 .section-header {
   background-color: #f6f9fe;
   border: 1px solid #d7e3ef;
@@ -821,17 +821,17 @@ body {
   padding: 5px;
 }
 
-/* line 74, ../sass/_module.scss */
+/* line 72, ../sass/_module.scss */
 .email-list {
   list-style: none;
   padding: 0;
   margin: 0;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 92.5%;
+  height: 95.5%;
 }
 
-/* line 83, ../sass/_module.scss */
+/* line 81, ../sass/_module.scss */
 .email-item {
   margin: 0px;
   padding-left: 5px;
@@ -839,33 +839,44 @@ body {
   box-sizing: border-box;
 }
 
-/* line 91, ../sass/_module.scss */
+/* line 89, ../sass/_module.scss */
 .check-star-wrapper {
   vertical-align: top;
   float: left;
   width: 15%;
 }
 
-/* line 97, ../sass/_module.scss */
+/* line 95, ../sass/_module.scss */
 .email-content-preview-wrapper {
   float: left;
   width: 85%;
 }
 
-/* line 101, ../sass/_module.scss */
+/* line 99, ../sass/_module.scss */
 .email-author-wrapper {
   vertical-align: top;
   margin: 0;
 }
 
-/* line 106, ../sass/_module.scss */
+/* line 104, ../sass/_module.scss */
 .email-author {
   display: inline;
   font-size: 0.9em;
   color: #708aab;
+  background: white url(../img/select-arrow.png) no-repeat 90% center;
 }
 
-/* line 112, ../sass/_module.scss */
+/* line 110, ../sass/_module.scss */
+.email-content-author {
+  -webkit-appearance: none;
+  /*Removes default chrome and safari style*/
+  -moz-appearance: none;
+  /* Removes Default Firefox style*/
+  background: white url(../img/select-arrow.png) no-repeat 90% center;
+  width: 100px;
+}
+
+/* line 117, ../sass/_module.scss */
 .email-time {
   font-size: 0.8em;
   float: right;
@@ -873,7 +884,7 @@ body {
   color: #6e8ba9;
 }
 
-/* line 119, ../sass/_module.scss */
+/* line 124, ../sass/_module.scss */
 .email-subject {
   font-size: 0.75em;
   color: #7b96b1;
@@ -881,7 +892,7 @@ body {
   margin: 5px 0;
 }
 
-/* line 126, ../sass/_module.scss */
+/* line 131, ../sass/_module.scss */
 .email-content-preview {
   font-size: 0.7em;
   color: #9caec2;
@@ -891,7 +902,7 @@ body {
 /*
  * EMAIL CONTENT
  */
-/* line 136, ../sass/_module.scss */
+/* line 141, ../sass/_module.scss */
 .email-actions-list {
   margin: 0;
   padding: 5px 0;
@@ -900,14 +911,14 @@ body {
   background-color: #f6f9fe;
 }
 
-/* line 144, ../sass/_module.scss */
+/* line 149, ../sass/_module.scss */
 .email-action {
   display: inline-block;
   padding: 0 5px;
   border-right: 1px solid #d7e3f1;
 }
 
-/* line 151, ../sass/_module.scss */
+/* line 156, ../sass/_module.scss */
 .email-action-link {
   color: #98b3ce;
   text-decoration: none;
@@ -916,7 +927,7 @@ body {
 /*
  * EMAIL CONTENT SPECIFIC
  */
-/* line 161, ../sass/_module.scss */
+/* line 166, ../sass/_module.scss */
 .email-content-title {
   font-weight: normal;
   text-align: left;
@@ -925,14 +936,14 @@ body {
   outline: 0;
 }
 
-/* line 169, ../sass/_module.scss */
+/* line 174, ../sass/_module.scss */
 .email-content-meta-info {
   font-size: 0.7em;
   font-weight: normal;
   color: #708ba8;
 }
 
-/* line 175, ../sass/_module.scss */
+/* line 180, ../sass/_module.scss */
 .email-content-author {
   border-radius: 5px;
   background-color: #cdd6e7;
@@ -943,29 +954,29 @@ body {
   padding: 3px 5px;
 }
 
-/* line 184, ../sass/_module.scss */
+/* line 189, ../sass/_module.scss */
 .email-content-author > option {
   color: #fffff;
 }
 
-/* line 188, ../sass/_module.scss */
+/* line 193, ../sass/_module.scss */
 .email-content-receiver-link {
   color: #708ba8;
   text-decoration: none;
 }
 
-/* line 193, ../sass/_module.scss */
+/* line 198, ../sass/_module.scss */
 .email-content-datetime {
   float: right;
   margin-top: 4px;
 }
 
-/* line 198, ../sass/_module.scss */
+/* line 203, ../sass/_module.scss */
 .email-content-img {
   border-radius: 3px;
 }
 
-/* line 202, ../sass/_module.scss */
+/* line 207, ../sass/_module.scss */
 .email-content-reply {
   width: 95%;
   border-radius: 5px;
@@ -974,7 +985,7 @@ body {
   font-style: italic;
 }
 
-/* line 211, ../sass/_module.scss */
+/* line 216, ../sass/_module.scss */
 ::-webkit-input-placeholder {
   color: #6f8aa5;
 }
@@ -982,7 +993,7 @@ body {
 /*
  * CONTACT LIST
  */
-/* line 219, ../sass/_module.scss */
+/* line 224, ../sass/_module.scss */
 .email-contacts-header {
   background-color: #f6f9fe;
   margin: 0;
@@ -993,7 +1004,7 @@ body {
   color: #94b4cd;
 }
 
-/* line 229, ../sass/_module.scss */
+/* line 234, ../sass/_module.scss */
 .email-contact-list {
   font-size: 0.8em;
   list-style: none;
@@ -1001,28 +1012,28 @@ body {
   margin: 0;
 }
 
-/* line 236, ../sass/_module.scss */
+/* line 241, ../sass/_module.scss */
 .email-contact-list {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
 }
 
-/* line 242, ../sass/_module.scss */
+/* line 247, ../sass/_module.scss */
 .email-contact-list-item {
   padding: 10px 10px;
   font-size: 0.7em;
   display: block;
 }
 
-/* line 254, ../sass/_module.scss */
+/* line 259, ../sass/_module.scss */
 .email-contact-list-link {
   padding-left: 5px;
   color: #6f8caa;
   text-decoration: none;
 }
 
-/* line 260, ../sass/_module.scss */
+/* line 265, ../sass/_module.scss */
 .email-contact-list-item:nth-child(2n+1) {
   background-color: #f6f9fe;
 }
@@ -1039,22 +1050,32 @@ body {
   padding-left: 10px;
 }
 
+/* line 13, ../sass/_state.scss */
+.navigation-item:hover {
+  background-color: #2f3649;
+}
+
 /* line 17, ../sass/_state.scss */
+.email-item-wrapper:hover {
+  background-color: #f2f5fa;
+}
+
+/* line 21, ../sass/_state.scss */
 .navigation-item:link {
   background-color: #ffffff;
 }
 
-/* line 21, ../sass/_state.scss */
+/* line 25, ../sass/_state.scss */
 .navigation-link:hover {
   text-decoration: underline;
 }
 
-/* line 25, ../sass/_state.scss */
+/* line 29, ../sass/_state.scss */
 .email-action-link:hover {
   text-decoration: underline;
 }
 
-/* line 29, ../sass/_state.scss */
+/* line 33, ../sass/_state.scss */
 .email-contact-list-link:hover {
   text-decoration: underline;
 }
@@ -1129,10 +1150,12 @@ body {
 div.navigation-item {
   border-top: 1px solid #2f3649;
   border-bottom: 1px solid #2f3649;
+  width: 100%;
   box-sizing: border-box;
+  padding-left: 20px;
 }
 
-/* line 60, ../sass/_page.scss */
+/* line 62, ../sass/_page.scss */
 .active-email-pre {
   background-color: #f2f5fa;
 }
@@ -1140,22 +1163,22 @@ div.navigation-item {
 /*
  * CONTACTS
  */
-/* line 68, ../sass/_page.scss */
+/* line 70, ../sass/_page.scss */
 .available {
   color: #76d181;
 }
 
-/* line 72, ../sass/_page.scss */
+/* line 74, ../sass/_page.scss */
 .away {
   color: #feac02;
 }
 
-/* line 76, ../sass/_page.scss */
+/* line 78, ../sass/_page.scss */
 .dont-disturb {
   color: #d8360f;
 }
 
-/* line 80, ../sass/_page.scss */
+/* line 82, ../sass/_page.scss */
 .offline {
   color: #cbd4e3;
 }

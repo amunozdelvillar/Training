@@ -53,9 +53,11 @@
  * ADD MORE
  */
 div.navigation-item {
- border-top: 1px solid #2f3649;
- border-bottom: 1px solid #2f3649;
- box-sizing: border-box;
+border-top: 1px solid #2f3649;
+border-bottom: 1px solid #2f3649;
+width: 100%;
+box-sizing: border-box;
+padding-left:20px ;
 }
 .active-email-pre {
   background-color: #f2f5fa;
