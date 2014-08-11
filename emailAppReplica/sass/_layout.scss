@@ -5,6 +5,7 @@
 #l-content {
   width:80%;
   margin: 0 auto;
+  background-color: red;
 }
 
 #l-navigation-sidebar {
@@ -32,9 +33,12 @@
   width:40%;
   display:inline-block;
   background-color:#ffffff;
-  padding: 0 20px;
   box-sizing: border-box;
   color:#8ca2ba;
+}
+
+#l-email-content {
+  padding: 0 20px;
 }
 
 #l-email-content-body {
@@ -53,4 +57,7 @@
   background-color: #ffffff;
 }
 
+#l-main-footer {
+  height: 100px;
+}
 

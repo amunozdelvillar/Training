@@ -13,7 +13,7 @@
   border:none;
   font-size: 0.5em;
   padding: 10px;
-  font-weight: bold;
+  font-weight: 700;
   width:90%;
   margin: 10px 10px 0;
 }
@@ -139,9 +139,10 @@
 
 .email-actions-list {
   margin-top: 0;
-  padding: 5px 0 5px;
+  padding: 5px 0;
   font-size: 0.7em;
   border: 1px solid #d7e3f1;
+  background-color: #f6f9fe;
 }
 
 .email-action {
@@ -233,10 +234,11 @@
 
 .email-contact-list {
   color:#6f8caa;
+  overflow: scroll;
 }
 
 .email-contact-list-item {
-  padding: 5px 30px 5px;
+  padding: 10px 10px;
   font-size: 0.7em;
   display:block;
 }
