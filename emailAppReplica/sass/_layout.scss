@@ -1,17 +1,21 @@
-#banner {
-  height: 100px;
+#l-banner {
+  height: 25px;
 }
 
 #l-content {
   width:80%;
+  height: 90%;
   margin: 0 auto;
   background-color: red;
+  position:fixed;
+  left:10%;
 }
 
 #l-navigation-sidebar {
   vertical-align: top;
-  width:15%;
-  display:inline-block;
+  width:17%;
+  height: 100%;
+  float:left;
   background-color:#444c63;
 }
 
@@ -23,7 +27,8 @@
 #l-email-list-wrapper {
   vertical-align: top;
   width:25%;
-  display:inline-block;
+  height: 100%;
+  float:left;
   background-color:#ffffff;
   margin: 0;
 }
@@ -31,7 +36,8 @@
 #l-email-wrapper {
   vertical-align: top;
   width:40%;
-  display:inline-block;
+  height:100%;
+  float:left;
   background-color:#ffffff;
   box-sizing: border-box;
   color:#8ca2ba;
@@ -42,7 +48,8 @@
 }
 
 #l-email-content-body {
-  font-size:0.9em;
+  font-size:0.7em;
+  height:100%;
 }
 
 #l-email-actions-wrapper {
@@ -52,12 +59,14 @@
 
 #l-email-contacts-wrapper {
   vertical-align: top;
-  width:15%;
-  display:inline-block;
+  width:18%;
+  height:100%;
+  float:left;
+  overflow:hidden;
   background-color: #ffffff;
 }
 
 #l-main-footer {
-  height: 100px;
+  height: 5%;
 }
 

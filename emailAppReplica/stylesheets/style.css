@@ -655,98 +655,107 @@ textarea {
 /* line 109, ../sass/_base.scss */
 body {
   background-color: #283852;
+  overflow: hidden;
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 114, ../sass/_base.scss */
 ::-webkit-scrollbar {
   width: 12px;
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #d7e3f1;
 }
 
-/* line 122, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
   background-color: #6e8ba9;
 }
 
 /* line 1, ../sass/_layout.scss */
-#banner {
-  height: 100px;
+#l-banner {
+  height: 25px;
 }
 
 /* line 5, ../sass/_layout.scss */
 #l-content {
   width: 80%;
+  height: 90%;
   margin: 0 auto;
   background-color: red;
+  position: fixed;
+  left: 10%;
 }
 
-/* line 11, ../sass/_layout.scss */
+/* line 14, ../sass/_layout.scss */
 #l-navigation-sidebar {
   vertical-align: top;
-  width: 15%;
-  display: inline-block;
+  width: 17%;
+  height: 100%;
+  float: left;
   background-color: #444c63;
 }
 
-/* line 18, ../sass/_layout.scss */
+/* line 22, ../sass/_layout.scss */
 #l-navigation {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 23, ../sass/_layout.scss */
+/* line 27, ../sass/_layout.scss */
 #l-email-list-wrapper {
   vertical-align: top;
   width: 25%;
-  display: inline-block;
+  height: 100%;
+  float: left;
   background-color: #ffffff;
   margin: 0;
 }
 
-/* line 31, ../sass/_layout.scss */
+/* line 36, ../sass/_layout.scss */
 #l-email-wrapper {
   vertical-align: top;
   width: 40%;
-  display: inline-block;
+  height: 100%;
+  float: left;
   background-color: #ffffff;
   box-sizing: border-box;
   color: #8ca2ba;
 }
 
-/* line 40, ../sass/_layout.scss */
+/* line 46, ../sass/_layout.scss */
 #l-email-content {
   padding: 0 20px;
 }
 
-/* line 44, ../sass/_layout.scss */
+/* line 50, ../sass/_layout.scss */
 #l-email-content-body {
-  font-size: 0.9em;
+  font-size: 0.7em;
+  height: 100%;
 }
 
-/* line 48, ../sass/_layout.scss */
+/* line 55, ../sass/_layout.scss */
 #l-email-actions-wrapper {
   vertical-align: top;
   background-color: #ffffff;
 }
 
-/* line 53, ../sass/_layout.scss */
+/* line 60, ../sass/_layout.scss */
 #l-email-contacts-wrapper {
   vertical-align: top;
-  width: 15%;
-  display: inline-block;
+  width: 18%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
   background-color: #ffffff;
 }
 
-/* line 60, ../sass/_layout.scss */
+/* line 69, ../sass/_layout.scss */
 #l-main-footer {
-  height: 100px;
+  height: 5%;
 }
 
 /*
@@ -768,27 +777,22 @@ body {
   margin: 10px 10px 0;
 }
 
-/* line 21, ../sass/_module.scss */
-.new-mail-btn:after {
-  content: "\f044";
-  padding-left: 10px;
-}
-
-/* line 30, ../sass/_module.scss */
+/* line 23, ../sass/_module.scss */
 .navigation-options {
   text-decoration-style: none;
   padding-left: 0;
 }
 
-/* line 43, ../sass/_module.scss */
+/* line 36, ../sass/_module.scss */
 .navigation-item {
   color: #d7e3f0;
   font-size: 0.9em;
   width: 90%;
   margin: auto;
+  padding: 5px 0;
 }
 
-/* line 50, ../sass/_module.scss */
+/* line 44, ../sass/_module.scss */
 .personalized-header {
   color: #d7e3f0;
   font-size: 0.9em;
@@ -797,7 +801,7 @@ body {
   font-weight: normal;
 }
 
-/* line 58, ../sass/_module.scss */
+/* line 52, ../sass/_module.scss */
 .navigation-link {
   color: #d7e3f0;
   font-size: 0.9em;
@@ -805,15 +809,10 @@ body {
   text-decoration: none;
 }
 
-/* line 65, ../sass/_module.scss */
-.navigation-link:hover {
-  text-decoration: underline;
-}
-
 /*
  * Email list
  */
-/* line 74, ../sass/_module.scss */
+/* line 66, ../sass/_module.scss */
 .section-header {
   background-color: #f6f9fe;
   border: 1px solid #d7e3ef;
@@ -822,47 +821,51 @@ body {
   padding: 5px;
 }
 
-/* line 82, ../sass/_module.scss */
+/* line 74, ../sass/_module.scss */
 .email-list {
   list-style: none;
-  padding: 5px 0 5px;
+  padding: 0;
   margin: 0;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 92.5%;
 }
 
-/* line 89, ../sass/_module.scss */
+/* line 83, ../sass/_module.scss */
 .email-item {
-  margin: 5px;
-  padding-left: 0;
+  margin: 0px;
+  padding-left: 5px;
+  border-bottom: 1px solid #d7e3ef;
+  box-sizing: border-box;
 }
 
-/* line 95, ../sass/_module.scss */
+/* line 91, ../sass/_module.scss */
 .check-star-wrapper {
   vertical-align: top;
   float: left;
   width: 15%;
 }
 
-/* line 101, ../sass/_module.scss */
+/* line 97, ../sass/_module.scss */
 .email-content-preview-wrapper {
-  float: right;
+  float: left;
   width: 85%;
 }
 
-/* line 105, ../sass/_module.scss */
+/* line 101, ../sass/_module.scss */
 .email-author-wrapper {
   vertical-align: top;
   margin: 0;
 }
 
-/* line 110, ../sass/_module.scss */
+/* line 106, ../sass/_module.scss */
 .email-author {
   display: inline;
   font-size: 0.9em;
   color: #708aab;
 }
 
-/* line 116, ../sass/_module.scss */
+/* line 112, ../sass/_module.scss */
 .email-time {
   font-size: 0.8em;
   float: right;
@@ -870,7 +873,7 @@ body {
   color: #6e8ba9;
 }
 
-/* line 123, ../sass/_module.scss */
+/* line 119, ../sass/_module.scss */
 .email-subject {
   font-size: 0.75em;
   color: #7b96b1;
@@ -878,7 +881,7 @@ body {
   margin: 5px 0;
 }
 
-/* line 130, ../sass/_module.scss */
+/* line 126, ../sass/_module.scss */
 .email-content-preview {
   font-size: 0.7em;
   color: #9caec2;
@@ -888,37 +891,32 @@ body {
 /*
  * EMAIL CONTENT
  */
-/* line 140, ../sass/_module.scss */
+/* line 136, ../sass/_module.scss */
 .email-actions-list {
-  margin-top: 0;
+  margin: 0;
   padding: 5px 0;
   font-size: 0.7em;
   border: 1px solid #d7e3f1;
   background-color: #f6f9fe;
 }
 
-/* line 148, ../sass/_module.scss */
+/* line 144, ../sass/_module.scss */
 .email-action {
   display: inline-block;
   padding: 0 5px;
   border-right: 1px solid #d7e3f1;
 }
 
-/* line 155, ../sass/_module.scss */
+/* line 151, ../sass/_module.scss */
 .email-action-link {
   color: #98b3ce;
   text-decoration: none;
 }
 
-/* line 160, ../sass/_module.scss */
-.email-action-link:hover {
-  text-decoration: underline;
-}
-
 /*
  * EMAIL CONTENT SPECIFIC
  */
-/* line 167, ../sass/_module.scss */
+/* line 161, ../sass/_module.scss */
 .email-content-title {
   font-weight: normal;
   text-align: left;
@@ -927,14 +925,14 @@ body {
   outline: 0;
 }
 
-/* line 175, ../sass/_module.scss */
+/* line 169, ../sass/_module.scss */
 .email-content-meta-info {
   font-size: 0.7em;
   font-weight: normal;
   color: #708ba8;
 }
 
-/* line 181, ../sass/_module.scss */
+/* line 175, ../sass/_module.scss */
 .email-content-author {
   border-radius: 5px;
   background-color: #cdd6e7;
@@ -945,19 +943,24 @@ body {
   padding: 3px 5px;
 }
 
-/* line 191, ../sass/_module.scss */
+/* line 185, ../sass/_module.scss */
 .email-content-receiver-link {
   color: #708ba8;
   text-decoration: none;
 }
 
-/* line 196, ../sass/_module.scss */
+/* line 190, ../sass/_module.scss */
 .email-content-datetime {
   float: right;
   margin-top: 4px;
 }
 
-/* line 201, ../sass/_module.scss */
+/* line 195, ../sass/_module.scss */
+.email-content-img {
+  border-radius: 3px;
+}
+
+/* line 199, ../sass/_module.scss */
 .email-content-reply {
   width: 95%;
   border-radius: 5px;
@@ -966,7 +969,7 @@ body {
   font-style: italic;
 }
 
-/* line 210, ../sass/_module.scss */
+/* line 208, ../sass/_module.scss */
 ::-webkit-input-placeholder {
   color: #6f8aa5;
 }
@@ -974,7 +977,7 @@ body {
 /*
  * CONTACT LIST
  */
-/* line 218, ../sass/_module.scss */
+/* line 216, ../sass/_module.scss */
 .email-contacts-header {
   background-color: #f6f9fe;
   margin: 0;
@@ -985,7 +988,7 @@ body {
   color: #94b4cd;
 }
 
-/* line 228, ../sass/_module.scss */
+/* line 226, ../sass/_module.scss */
 .email-contact-list {
   font-size: 0.8em;
   list-style: none;
@@ -993,13 +996,14 @@ body {
   margin: 0;
 }
 
-/* line 235, ../sass/_module.scss */
+/* line 233, ../sass/_module.scss */
 .email-contact-list {
-  color: #6f8caa;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100%;
 }
 
-/* line 240, ../sass/_module.scss */
+/* line 239, ../sass/_module.scss */
 .email-contact-list-item {
   padding: 10px 10px;
   font-size: 0.7em;
@@ -1010,11 +1014,50 @@ body {
 .email-contact-list-item:before {
   content: "\f111";
   padding-right: 5px;
+  color: #01caa0;
 }
 
-/* line 251, ../sass/_module.scss */
+/* line 252, ../sass/_module.scss */
+.email-contact-list-link {
+  color: #6f8caa;
+  text-decoration: none;
+}
+
+/* line 257, ../sass/_module.scss */
 .email-contact-list-item:nth-child(2n+1) {
   background-color: #f6f9fe;
+}
+
+/*
+ * LINKS
+ */
+/*
+ * SIDEBAR BUTTON
+ */
+/* line 8, ../sass/_state.scss */
+.new-mail-btn:after {
+  content: "\f044";
+  padding-left: 10px;
+}
+
+/* line 17, ../sass/_state.scss */
+.navigation-item:link {
+  background-color: #ffffff;
+}
+
+/* line 21, ../sass/_state.scss */
+.navigation-link:hover {
+  text-decoration: underline;
+}
+
+/* line 25, ../sass/_state.scss */
+.email-action-link:hover {
+  text-decoration: underline;
+}
+
+/* line 29, ../sass/_state.scss */
+.email-contact-list-link:hover {
+  text-decoration: underline;
 }
 
 /*
@@ -1058,6 +1101,31 @@ body {
 /* line 32, ../sass/_page.scss */
 .blue-theme-dark {
   color: #98b4cc;
+}
+
+/* line 36, ../sass/_page.scss */
+.personal-border {
+  border-left: 5px solid #7974d0;
+}
+
+/* line 40, ../sass/_page.scss */
+.work-border {
+  border-left: 5px solid #01caa0;
+}
+
+/* line 44, ../sass/_page.scss */
+.social-border {
+  border-left: 5px solid #fe4225;
+}
+
+/* line 48, ../sass/_page.scss */
+.family-border {
+  border-left: 5px solid #00adef;
+}
+
+/* line 52, ../sass/_page.scss */
+.active-email-pre {
+  background-color: #f2f5fa;
 }
 
 /* ==========================================================================

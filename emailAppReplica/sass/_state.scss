@@ -1,0 +1,31 @@
+/*
+ * LINKS
+ */
+
+/*
+ * SIDEBAR BUTTON
+ */
+.new-mail-btn:after {
+  content:"\f044";
+  padding-left:10px;
+}
+
+.new-mail-btn:hover {
+
+}
+
+.navigation-item:link {
+  background-color: #ffffff;
+}
+
+.navigation-link:hover {
+  text-decoration:underline;
+}
+
+.email-action-link:hover {
+  text-decoration:underline;
+}
+
+.email-contact-list-link:hover {
+  text-decoration: underline;
+}
