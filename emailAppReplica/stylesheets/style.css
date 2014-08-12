@@ -753,9 +753,11 @@ body {
   float: left;
   overflow: hidden;
   background-color: #ffffff;
+  border-left: 1px solid #d7e3f1;
+  box-sizing: border-box;
 }
 
-/* line 69, ../sass/_layout.scss */
+/* line 71, ../sass/_layout.scss */
 #l-main-footer {
   height: 5%;
 }
@@ -772,11 +774,11 @@ body {
   color: white;
   background-color: #01caa0;
   border: none;
-  font-size: 0.7em;
+  font-size: 0.55em;
   padding: 10px;
   font-weight: bold;
-  width: 70%;
-  margin: 10px 20px 0;
+  width: 80%;
+  margin: 20px 20px 0;
 }
 
 /* line 23, ../sass/_module.scss */
@@ -983,17 +985,19 @@ body {
   padding: 10px;
   margin: 0 0 10px;
   font-style: italic;
+  height: 70px;
 }
 
 /* line 216, ../sass/_module.scss */
-::-webkit-input-placeholder {
+.email-content-reply::-webkit-input-placeholder {
+  font-weight: 600;
   color: #6f8aa5;
 }
 
 /*
  * CONTACT LIST
  */
-/* line 224, ../sass/_module.scss */
+/* line 226, ../sass/_module.scss */
 .email-contacts-header {
   background-color: #f6f9fe;
   margin: 0;
@@ -1004,7 +1008,7 @@ body {
   color: #94b4cd;
 }
 
-/* line 234, ../sass/_module.scss */
+/* line 236, ../sass/_module.scss */
 .email-contact-list {
   font-size: 0.8em;
   list-style: none;
@@ -1012,28 +1016,28 @@ body {
   margin: 0;
 }
 
-/* line 241, ../sass/_module.scss */
+/* line 243, ../sass/_module.scss */
 .email-contact-list {
   overflow-y: scroll;
   overflow-x: hidden;
   height: 100%;
 }
 
-/* line 247, ../sass/_module.scss */
+/* line 249, ../sass/_module.scss */
 .email-contact-list-item {
   padding: 10px 10px;
   font-size: 0.7em;
   display: block;
 }
 
-/* line 259, ../sass/_module.scss */
+/* line 255, ../sass/_module.scss */
 .email-contact-list-link {
   padding-left: 5px;
   color: #6f8caa;
   text-decoration: none;
 }
 
-/* line 265, ../sass/_module.scss */
+/* line 261, ../sass/_module.scss */
 .email-contact-list-item:nth-child(2n+1) {
   background-color: #f6f9fe;
 }
@@ -1184,7 +1188,8 @@ div.navigation-item {
 /* line 89, ../sass/_page.scss */
 .important-notification:after {
   float: right;
-  display: block;
+  position: relative;
+  left: 2px;
   content: "8";
   width: 20px;
   height: 20px;
@@ -1193,10 +1198,11 @@ div.navigation-item {
   border-radius: 5px;
 }
 
-/* line 100, ../sass/_page.scss */
+/* line 101, ../sass/_page.scss */
 .notification:after {
   float: right;
-  display: block;
+  position: relative;
+  left: 2px;
   content: "3";
   width: 20px;
   height: 20px;

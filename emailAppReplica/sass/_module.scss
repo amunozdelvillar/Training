@@ -11,11 +11,11 @@
   color:white;
   background-color:#01caa0;
   border:none;
-  font-size: 0.7em;
+  font-size: 0.55em;
   padding: 10px;
   font-weight: bold;
-  width:70%;
-  margin: 10px 20px 0;
+  width:80%;
+  margin: 20px 20px 0;
 }
 
 
@@ -210,12 +210,14 @@
   padding: 10px;
   margin: 0 0 10px;
   font-style: italic;
+  height: 70px;
 }
 
-
-::-webkit-input-placeholder{
+.email-content-reply::-webkit-input-placeholder{
+  font-weight: 600;
   color:#6f8aa5;
 }
+
 
 /*
  * CONTACT LIST
@@ -249,12 +251,6 @@
   font-size: 0.7em;
   display:block;
 }
-
-////TODO:Maybe not a pseudo-element and use span instead
-//.email-contact-list-item:before {
-//  content:"\f111";
-//  color:#01caa0;
-//}
 
 .email-contact-list-link {
   padding-left: 5px;
