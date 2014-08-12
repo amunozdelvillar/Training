@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a54df41-f1d5-4823-9948-687cbc1be91d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_layout.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_module.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" afterPath="$PROJECT_DIR$/emailAppReplica/.sass-cache/2792955a0cb8bda4a0d179d0bc1afd52986e9c64/_page.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_layout.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_module.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" afterPath="$PROJECT_DIR$/emailAppReplica/sass/_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/index.html" afterPath="$PROJECT_DIR$/emailAppReplica/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" afterPath="$PROJECT_DIR$/emailAppReplica/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap3Essentials/index.html" afterPath="$PROJECT_DIR$/bootstrap3Essentials/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Training.iws" />
@@ -36,9 +29,13 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bootstrap3Essentials/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.61245674" vertical-offset="622" max-vertical-offset="1200">
-              <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
-              <folding />
+            <state vertical-scroll-proportion="0.36571428" vertical-offset="0" max-vertical-offset="875">
+              <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+              <folding>
+                <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -315,7 +312,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903227" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31935483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31935483" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -744,9 +741,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap3Essentials/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.61245674" vertical-offset="622" max-vertical-offset="1200">
-          <caret line="61" column="71" selection-start-line="61" selection-start-column="71" selection-end-line="61" selection-end-column="71" />
-          <folding />
+        <state vertical-scroll-proportion="0.36571428" vertical-offset="0" max-vertical-offset="875">
+          <caret line="70" column="41" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="tag#header#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#div#0;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#section#0;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
