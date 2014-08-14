@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            font-family: monospace;
+            background-color: #1F1F28;
+        }
+
+        * {
+            margin: 0; padding:0;
+        }
+
+        ul {
+            border: 2px solid red;
+            background-color: orange;
+            width: 500px;
+            margin: auto;
+            border-radius: 5px;
+        }
+
+
+        li {
+            width: 256px;
+            margin: 5px auto;
+            text-align: center;
+            overflow: hidden;
+            padding: 10px;
+            border: 2px solid blue;
+            border-radius: 5px;
+        }
+
+        #logo {
+            height: 200px;
+            background: url('img/lol-logo.png') no-repeat center ;
+        }
+
+
+    </style>
+</head>
+<body>
+<header id="logo">
+    LoL
+</header>
+<ul class="champs">
+    <script id="template" type="text/x-handlebars-template">
+        {{#each this}}
+        <li>
+            <h1>{{id}} - {{name}}</h1>
+            <img src="http://ddragon.leagueoflegends.com/cdn/3.15.5/img/champion/{{name}}.png" alt="{{name}}"/>
+            <blockquote><i>{{title}}</i></blockquote>
+        </li>
+        {{/each}}
+    </script>
+</ul>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/handlebars/dist/handlebars.js"></script>
+<script type="text/javascript">
+    (function($){
+        var key = '646f2080-b68d-4ce3-9139-b3718cf93cf2';
+        var LoL = {
+            init: function(){
+                this.url = 'https://na.api.pvp.net/api/lol/static-data/na/v1.2/champion?locale=en_US&api_key='.concat(key);
+                this.fetch();
+            },
+            attatchTemplate:function(){
+                var template = Handlebars.compile($('#template').html());
+                console.log(this.champs);
+                var temp = template(this.champs);
+                console.log(temp);
+                $('ul.champs').append(temp);
+            },
+        fetch: function(){
+                $.getJSON( this.url, function(data){
+                    this.champs = $.map( data.data, function(champion){
+                        return {
+                            id: champion.id,
+                            name: champion.name,
+                            title: champion.title
+                        }
+                    });
+                    this.attatchTemplate();
+                }.bind(this));
+            }
+        };
+
+        LoL.init();
+    })(jQuery);
+</script>
+</body>
+</html>

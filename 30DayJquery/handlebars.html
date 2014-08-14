@@ -82,7 +82,9 @@
         ];
 //        H
         var template = Handlebars.compile( $('#template').html());
+        console.log(data);
         var temp = template(data);
+        console.log(temp);
         $('ul.tweets').append(temp);
     })(jQuery);
 </script>
