@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            width:256px;
+            margin: 100px auto;
+        }
+
+        * {
+            margin: 0; padding:0;
+        }
+
+        #slider-nav {
+            width: 256px;
+            margin:auto;
+        }
+
+        #slider-nav button{
+            padding: 1em;
+            margin-right: 1em;
+            border-radius:5px;
+            cursor: pointer;
+        }
+
+
+        .slider {
+            width:inherit;
+            height: 256px;
+        }
+
+        .slider ul {
+            width:10000px;
+            list-style:none;
+        }
+
+        .slider li {
+            float:left;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<script id="blogTemplate" type="tuts/template">
+    <h2>{{title}}</h2>
+    <img src="{{thumbnail}}" alt="{{title}}"/>
+</script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    (function($){
+        var content = [
+            {
+                title: 'myContent post',
+                thumbnail: 'http://placehold.it/25x25'
+            },
+            {
+                title: 'myContent post 2',
+                thumbnail: 'http://placehold.it/25x25'
+            }
+        ],
+            template = $.trim($('#blogTemplate').html());
+
+        //arr,fn()
+        $.each(content, function(index, val){
+            var temp =
+            template.replace(/{{title}}/ig, val.title)
+                    .replace(/{{thumbnail}}/ig, val.thumbnail);
+            $(document.body).append(temp);
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
