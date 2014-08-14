@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div {
+            width:  300px;
+        }
+    </style>
+</head>
+<body>
+<article>
+    <h1>Click Meh</h1>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim, explicabo harum ipsam nisi rerum. Accusantium aliquam architecto aspernatur autem blanditiis deserunt eum explicabo in, labore non, omnis, placeat vero!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim, explicabo harum ipsam nisi rerum. Accusantium aliquam architecto aspernatur autem blanditiis deserunt eum explicabo in, labore non, omnis, placeat vero!</p>
+    </div>
+    <button>Increase</button>
+</article>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    (function(){
+        var box = $('div.content');
+
+        $('button').on('click',function(){
+            box.animate({
+                'font-size': '+=5',
+                'width': '+=300'
+            }, 5000);
+        });
+    })();
+</script>
+</body>
+</html>

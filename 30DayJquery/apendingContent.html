@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<article>
+    <h1>My awesome post</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim, explicabo harum ipsam nisi rerum. Accusantium aliquam architecto aspernatur autem blanditiis deserunt eum explicabo in, labore non, omnis, placeat vero!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae enim, explicabo harum ipsam nisi rerum. Accusantium aliquam architecto aspernatur autem blanditiis deserunt eum explicabo in, labore non, omnis, placeat vero!</p>
+</article>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript">
+    (function(){
+        $('p').last().before('Hello from JS');
+        $('<h2></h2>',{
+            text: 'Herro',
+            class: 'derp'
+        }).insertAfter('h1');
+        $('h1').appendTo('article');
+    })();
+</script>
+</body>
+</html>
