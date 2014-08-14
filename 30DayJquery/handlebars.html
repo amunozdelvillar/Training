@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{
+            width:256px;
+            margin: 100px auto;
+        }
+
+        * {
+            margin: 0; padding:0;
+        }
+
+        #slider-nav {
+            width: 256px;
+            margin:auto;
+        }
+
+        #slider-nav button{
+            padding: 1em;
+            margin-right: 1em;
+            border-radius:5px;
+            cursor: pointer;
+        }
+
+
+        .slider {
+            width:inherit;
+            height: 256px;
+        }
+
+        .slider ul {
+            width:10000px;
+            list-style:none;
+        }
+
+        .slider li {
+            float:left;
+        }
+
+
+    </style>
+</head>
+<body>
+<ul class="tweets">
+    <script id="template" type="text/x-handlebars-template">
+        {{#each this}}
+        <li>
+            <h2>{{{author}}} {{#if age}}<span>-{{age}}</span>{{/if}}</h2>
+            <p>{{tweet}}</p>
+            {{#if quote}}
+                <h5>{{quote}}</h5>
+            {{else}}
+                <h5>Author doesn't have a quote</h5>
+            {{/if}}
+            <!--{{#unless quote}}-->
+                <!--<h5>Author doesn't have a quote</h5>-->
+            <!--{{/unless}}-->
+        </li>
+        {{/each}}
+    </script>
+</ul>
+
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/handlebars/dist/handlebars.js"></script>
+<script type="text/javascript">
+    (function($){
+        var data =[
+            {
+                author: 'jeff way',
+                tweet: '30 days to learn jquery rocks'
+            },
+            {
+                author: '<strong>angel munoz</strong>',
+                tweet: 'this is taking way too long, i need some coffe',
+                age: '23',
+                quote:'Derp!'
+
+            }
+        ];
+//        H
+        var template = Handlebars.compile( $('#template').html());
+        var temp = template(data);
+        $('ul.tweets').append(temp);
+    })(jQuery);
+</script>
+</body>
+</html>

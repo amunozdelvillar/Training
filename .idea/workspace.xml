@@ -35,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="utils.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/30DayJquery/utils.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7301855" vertical-offset="639" max-vertical-offset="1312">
-              <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+            <state vertical-scroll-proportion="-10.28" vertical-offset="639" max-vertical-offset="1312">
+              <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlebars.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/30DayJquery/handlebars.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3524452" vertical-offset="623" max-vertical-offset="1520">
+              <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -89,6 +99,7 @@
         <option value="$PROJECT_DIR$/30DayJquery/animate.html" />
         <option value="$PROJECT_DIR$/30DayJquery/slider.html" />
         <option value="$PROJECT_DIR$/30DayJquery/utils.html" />
+        <option value="$PROJECT_DIR$/30DayJquery/handlebars.html" />
       </list>
     </option>
   </component>
@@ -345,13 +356,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/emailAppReplica/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3040" max-vertical-offset="4176">
-          <caret line="190" column="29" selection-start-line="190" selection-start-column="29" selection-end-line="190" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emailAppReplica/sass/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="383" max-vertical-offset="976">
@@ -698,8 +702,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/30DayJquery/utils.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7301855" vertical-offset="639" max-vertical-offset="1312">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
+        <state vertical-scroll-proportion="-10.28" vertical-offset="639" max-vertical-offset="1312">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30DayJquery/handlebars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3524452" vertical-offset="623" max-vertical-offset="1520">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
           <folding />
         </state>
       </provider>
