@@ -1,6 +1,6 @@
 <?php include '_partials/header.php';?>
     <h1>Search countries</h1>
-    <form action="index.php" method="post">
+    <form id="country-selection" name="country-selection" action="index.php" method="post">
         <select name="q" id="q">
             <?php
                 $alphabet = str_split('abcdefghijklmnopqrstuvwxyz');

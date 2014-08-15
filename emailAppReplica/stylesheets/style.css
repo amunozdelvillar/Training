@@ -685,14 +685,11 @@ body {
 /* line 5, ../sass/_layout.scss */
 #l-content {
   width: 80%;
-  height: 90%;
+  height: 600px;
   margin: 0 auto;
-  background-color: red;
-  position: fixed;
-  left: 10%;
 }
 
-/* line 14, ../sass/_layout.scss */
+/* line 11, ../sass/_layout.scss */
 #l-navigation-sidebar {
   vertical-align: top;
   width: 17%;
@@ -701,13 +698,13 @@ body {
   background-color: #444c63;
 }
 
-/* line 22, ../sass/_layout.scss */
+/* line 19, ../sass/_layout.scss */
 #l-navigation {
   width: 100%;
   margin: 0;
 }
 
-/* line 27, ../sass/_layout.scss */
+/* line 24, ../sass/_layout.scss */
 #l-email-list-wrapper {
   vertical-align: top;
   width: 25%;
@@ -717,7 +714,7 @@ body {
   margin: 0;
 }
 
-/* line 36, ../sass/_layout.scss */
+/* line 33, ../sass/_layout.scss */
 #l-email-wrapper {
   vertical-align: top;
   width: 40%;
@@ -728,24 +725,24 @@ body {
   color: #8ca2ba;
 }
 
-/* line 46, ../sass/_layout.scss */
+/* line 43, ../sass/_layout.scss */
 #l-email-content {
   padding: 0 20px;
 }
 
-/* line 50, ../sass/_layout.scss */
+/* line 47, ../sass/_layout.scss */
 #l-email-content-body {
   font-size: 0.7em;
   height: 100%;
 }
 
-/* line 55, ../sass/_layout.scss */
+/* line 52, ../sass/_layout.scss */
 #l-email-actions-wrapper {
   vertical-align: top;
   background-color: #ffffff;
 }
 
-/* line 60, ../sass/_layout.scss */
+/* line 57, ../sass/_layout.scss */
 #l-email-contacts-wrapper {
   vertical-align: top;
   width: 18%;
@@ -757,7 +754,7 @@ body {
   box-sizing: border-box;
 }
 
-/* line 71, ../sass/_layout.scss */
+/* line 68, ../sass/_layout.scss */
 #l-main-footer {
   height: 5%;
 }
