@@ -10,6 +10,21 @@ App.IndexRoute = Ember.Route.extend({
     }
 });
 
+App.IndexController = Ember.ObjectController.extend({
+    subreddit_header: 'leagueoflegends',
+    loadList: function(){
+        //grab value from input field
+        var value = this.get('subreddit');
+        if(value){
+            this.set('subreddit_header', value);
+            this.set('model', App.RedditLink.findAll(value));
+
+            //clear out the input field
+            this.set('subreddit_header','');
+        }
+    }
+});
+
 //model obj
 App.RedditLink = Ember.Object.extend({
     thumbnailUrl: function(){

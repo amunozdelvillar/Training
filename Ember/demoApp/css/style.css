@@ -1,4 +1,32 @@
 /* Put your CSS here */
 .ember-application {
-    margin: 20px;
+    background-color: #000000;
+    width: 70%;
+    margin: auto;
+    font-size: 1em;
+    color:#ffffff;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #ffea1a;
+    border: 3px solid #ff7f13;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    height: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #cb6613;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.1em;
 }

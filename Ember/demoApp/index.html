@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <main>
   <script type="text/x-handlebars">
     <h2>Ember demo app</h2>
     <ul>
@@ -17,7 +18,14 @@
   </script>
 
   <script type="text/x-handlebars" id="index">
-    <h2></h2>
+    <div class="about">
+        <form {{action loadList on="submit"}}>
+            {{view Ember.TextField valueBinding="subreddit" id="subreddit" placeholder="subreddit" required="true"}}
+            <button type="submit">Go!</button>
+        </form>
+    </div>
+
+    <h2>Links from /r/{{subreddit_header}}</h2>
     <ul>
         {{#each link in model}}
         <li>
@@ -39,7 +47,7 @@
         <li>Andy Matthews</li>
     </ul>
   </script>
-
+  </main>
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>
   <script src="js/libs/ember-1.7.0.js"></script>
