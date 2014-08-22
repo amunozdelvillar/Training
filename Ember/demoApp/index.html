@@ -8,7 +8,29 @@
 </head>
 <body>
   <main>
-  <script type="text/x-handlebars">
+
+      <script type="text/x-handlebars" id="index">
+      <div class="about">
+      <form {{action "loadList" on="submit"}}>
+      {{view Ember.TextField valueBinding="subreddit" id="subreddit" placeholder="subreddit" required="true"}}
+      <button type="submit">Go!</button>
+      </form>
+      </div>
+
+      <h2>Links from /r/{{subreddit_header}}</h2>
+      <ul>
+      {{#each link in model}}
+      <li>
+      {{#if link.thumbnailUrl}}
+      <img {{bind-attr src="link.thumbnailUrl"}}>
+      {{/if}}
+      <a {{bind-attr href="link.url"}} target="_blank" >{{link.title}}</a>
+      </li>
+      {{/each}}
+      </ul>
+      </script>
+
+      <script type="text/x-handlebars" id="application">
     <h2>Ember demo app</h2>
     <ul>
         <li>{{#link-to 'index'}}home{{/link-to}}</li>
@@ -16,37 +38,15 @@
     </ul>
     {{outlet}}
   </script>
-
-  <script type="text/x-handlebars" id="index">
-    <div class="about">
-        <form {{action loadList on="submit"}}>
-            {{view Ember.TextField valueBinding="subreddit" id="subreddit" placeholder="subreddit" required="true"}}
-            <button type="submit">Go!</button>
-        </form>
-    </div>
-
-    <h2>Links from /r/{{subreddit_header}}</h2>
-    <ul>
-        {{#each link in model}}
-        <li>
-            {{#if link.thumbnailUrl}}
-                <img {{bind-attr src="link.thumbnailUrl"}}>
-            {{/if}}
-            <a {{bind-attr href="link.url"}} target="_blank" >{{link.title}}</a>
-        </li>
-        {{/each}}
-    </ul>
-  </script>
-
-  <script type="text/x-handlebars" id="about">
-    <h2>Special Thanks to...</h2>
-    <ul>
-        <li>Yehuda Katz</li>
-        <li>Tom Dale</li>
-        <li>Robin Ward</li>
-        <li>Andy Matthews</li>
-    </ul>
-  </script>
+      <script type="text/x-handlebars" id="about" >
+      <h2>Special Thanks to...</h2>
+      <ul>
+      <li>Yehuda Katz</li>
+      <li>Tom Dale</li>
+      <li>Robin Ward</li>
+      <li>Andy Matthews</li>
+      </ul>
+      </script>
   </main>
   <script src="js/libs/jquery-1.10.2.js"></script>
   <script src="js/libs/handlebars-1.1.2.js"></script>

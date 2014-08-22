@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Ember.js • TodoMVC</title>
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<main id="container"></main>
+<script type="text/x-handlebars" data-template-name="index">
+    <p>This is the Github explorer</p>
+    <ul>
+        {{#each}}
+        <li>{{#link-to 'user' login}}{{name}}{{/link-to}}</li>
+        {{/each}}
+    </ul>
+    <button class="btn btn-success" {{action "clickMe"}}>Click meh</button>
+    <p>{{renderedOn}}</p>
+</script>
+
+<script type="text/x-handlebars" data-template-name="user">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="well">
+                <p class="text-center">
+                    {{#link-to 'user' this}}<img {{bind-attr src=avatar_url}}/>{{/link-to}}
+                </p>
+                <h4>{{#link-to 'user' this}}{{name}}{{/link-to}}</h4>
+                <ul class="list-group">
+                    <li class="list-group-item"><a {{bind-attr href=html_url target="_blank" }}>Github</a></li>
+                    <li class="list-group-item">Followers: {{followers}}</li>
+                    <li class="list-group-item">Following: {{following}}</li>
+                    <li class="list-group-item">{{#link-to "index"}}Back{{/link-to}}</li>
+                </ul>
+                <hr/>
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            {{outlet}}
+        </div>
+    </div>
+</script>
+
+<script type="text/x-handlebars" data-template-name="user/index">
+    <h2>{{name}}'s Github</h2>
+    <ul class="list-group">
+        <li class="list-group-item">{{#link-to 'repositories' this}}Repositories{{/link-to}}</li>
+        <li class="list-group-item"><a href="#">News and Events</a></li>
+        <li class="list-group-item"><a href="#">Gists</a></li>
+    </ul>
+</script>
+<script type="text/x-handlebars" data-template-name="repositories">
+    <ul class="list-group">
+        {{#each}}
+        <li class="list-group-item">{{name}}</li>
+        {{/each}}
+    </ul>
+</script>
+    <script src="js/libs/jquery-1.10.2.js"></script>
+    <script src="js/libs/handlebars-1.1.2.js"></script>
+    <script src="js/libs/ember-1.6.1.js"></script>
+    <script src="bower_components/ember-data/ember-data.js"></script>
+<script src="js/libs/localstorage_adapter.js"></script>
+<script src="js/app.js"></script>
+<script src="js/router.js"></script>
+<script src="js/controllers/indexController.js"></script>
+</body>
+</html>
