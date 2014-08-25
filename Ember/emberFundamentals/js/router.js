@@ -67,6 +67,14 @@ App.ForksRoute = Ember.Route.extend({
     }
 });
 
+App.CommitsRoute = Ember.Route.extend({
+    model: function(){
+        var repo = this.modelFor('repository'),
+            url  = repo.commits_url.replace('{/sha}','');
+        return Ember.$.getJSON(url);
+    }
+});
+
 var devs = [
     {
         login: 'rilopez',

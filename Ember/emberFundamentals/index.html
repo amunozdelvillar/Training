@@ -131,8 +131,18 @@
 </script>
 
 <script type="text/x-handlebars" data-template-name="commits">
-    <h1>Commits</h1>
-    <p>Lorem ipsum dolor.</p>
+    <div class="clearfix">
+        <h1>Commits</h1>
+        <ol class="list-group">
+            {{#each}}
+            <li class="list-group-item">
+                <h4>{{commit.committer.name}}</h4>
+                <p>{{commit.message}}</p>
+                <p>{{fromDate commit.committer.date}}</p>
+            </li>
+            {{/each}}
+        </ol>
+    </div>
 </script>
 
     <script src="js/libs/jquery-1.10.2.js"></script>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a54df41-f1d5-4823-9948-687cbc1be91d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ember/emberFundamentals/js/app.js" afterPath="$PROJECT_DIR$/Ember/emberFundamentals/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ember/emberFundamentals/index.html" afterPath="$PROJECT_DIR$/Ember/emberFundamentals/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ember/emberFundamentals/js/router.js" afterPath="$PROJECT_DIR$/Ember/emberFundamentals/js/router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Training.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,13 +58,13 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="router.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/js/router.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7866667" vertical-offset="332" max-vertical-offset="1232">
-                  <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+                <state vertical-scroll-proportion="0.68881685" vertical-offset="663" max-vertical-offset="1360">
+                  <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
                   <folding>
-                    <element signature="e#1822#2376#0" expanded="false" />
+                    <element signature="e#2039#2593#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -76,11 +74,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.31322506" vertical-offset="994" max-vertical-offset="1856">
-                  <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+                <state vertical-scroll-proportion="0.41968912" vertical-offset="1373" max-vertical-offset="2016">
+                  <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
                   <folding>
                     <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
                     <element signature="tag#script#4;tag#body#0;tag#html#0" expanded="false" />
@@ -163,8 +161,8 @@
         <option value="$PROJECT_DIR$/Ember/emberFundamentals/js/controllers/repositoriesController.js" />
         <option value="$PROJECT_DIR$/Ember/emberFundamentals/css/style.css" />
         <option value="$PROJECT_DIR$/Ember/emberFundamentals/js/app.js" />
-        <option value="$PROJECT_DIR$/Ember/emberFundamentals/js/router.js" />
         <option value="$PROJECT_DIR$/Ember/emberFundamentals/index.html" />
+        <option value="$PROJECT_DIR$/Ember/emberFundamentals/js/router.js" />
       </list>
     </option>
   </component>
@@ -501,7 +499,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30430108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30430108" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -890,23 +888,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/js/router.js">
+    <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7866667" vertical-offset="332" max-vertical-offset="1232">
-          <caret line="65" column="36" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.41968912" vertical-offset="1373" max-vertical-offset="2016">
+          <caret line="139" column="35" selection-start-line="139" selection-start-column="35" selection-end-line="139" selection-end-column="35" />
           <folding>
-            <element signature="e#1822#2376#0" expanded="false" />
+            <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="tag#script#4;tag#body#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/index.html">
+    <entry file="file://$PROJECT_DIR$/Ember/emberFundamentals/js/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31322506" vertical-offset="994" max-vertical-offset="1856">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.68881685" vertical-offset="663" max-vertical-offset="1360">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
           <folding>
-            <element signature="tag#script#3;tag#body#0;tag#html#0" expanded="false" />
-            <element signature="tag#script#4;tag#body#0;tag#html#0" expanded="false" />
+            <element signature="e#2039#2593#0" expanded="false" />
           </folding>
         </state>
       </provider>
