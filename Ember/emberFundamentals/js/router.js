@@ -4,9 +4,14 @@ App.Router.map(function(){
 //e.g this.resource('user');
 //    this.route('action');
 //e.g this.route('addUser');
-    this.resource('user',{path: '/users/:login'}, function(){
+    this.resource('user', {path: '/users/:login'}, function(){
         //Nested route
-        this.resource('repositories',{path: 'repositories'})
+        this.resource('repositories', {path: 'repositories'});
+        this.resource('repository', {path: 'repository/:reponame'}, function(){
+            this.resource('issues');
+            this.resource('forks');
+            this.resource('commits');
+        });
     });
 });
 
@@ -23,10 +28,34 @@ App.UserIndexRoute = Ember.Route.extend({
     }
 });
 
+App.UserRoute = Ember.Route.extend({
+    model: function(params){
+        var url ="https://api.github.com/users/".concat(params.login);
+        return Ember.$.getJSON(url);
+    }
+});
+
 App.RepositoriesRoute = Ember.Route.extend({
     model: function(){
         var user = this.modelFor('user');
         return Ember.$.getJSON(user.repos_url);
+    }
+});
+
+App.RepositoryRoute = Ember.Route.extend({
+    model: function(params){
+        var user = this.modelFor('user');
+        //build the URL for the repo call manually
+        var url ="https://api.github.com/repos/".concat(user.login).concat('/').concat(params.reponame);
+        return Ember.$.getJSON(url);
+    }
+});
+
+App.IssuesRoute = Ember.Route.extend({
+    model: function(){
+        var repo = this.modelFor('repository'),
+            url  = repo.issues_url.replace('{/number}','');
+        return Ember.$.getJSON(url);
     }
 });
 
@@ -66,9 +95,3 @@ var devs = [
 
 ];
 
-App.UserRoute = Ember.Route.extend({
-    model: function(params){
-        var url ="https://api.github.com/users/".concat(params.login);
-        return Ember.$.getJSON(url);
-    }
-});
