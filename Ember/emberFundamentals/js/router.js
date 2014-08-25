@@ -59,6 +59,14 @@ App.IssuesRoute = Ember.Route.extend({
     }
 });
 
+App.ForksRoute = Ember.Route.extend({
+    model: function(){
+        var repo = this.modelFor('repository'),
+            url  = repo.forks_url;
+        return Ember.$.getJSON(url);
+    }
+});
+
 var devs = [
     {
         login: 'rilopez',

@@ -107,8 +107,8 @@
             {{#each}}
                 <li class="list-group-item">
                     <img class="list-group-item-img" {{bind-attr src=user.avatar_url}}/>
-                    <h2>{{title}}</h2>
-                    <p>{{created_at}}</p>
+                    <h4>{{title}}</h4>
+                    <p>{{fromDate created_at}}</p>
                 </li>
             {{/each}}
         </ol>
@@ -116,8 +116,18 @@
 </script>
 
 <script type="text/x-handlebars" data-template-name="forks">
-    <h1>Forks</h1>
-    <p>Lorem ipsum dolor.</p>
+    <div class="clearfix">
+        <h1>Forks</h1>
+        <ol class="list-group">
+            {{#each}}
+            <li class="list-group-item">
+                <img class="list-group-item-img" {{bind-attr src=owner.avatar_url}}/>
+                <h4>{{owner.login}}</h4>
+                    <p>{{fromDate created_at}}</p>
+            </li>
+            {{/each}}
+        </ol>
+    </div>
 </script>
 
 <script type="text/x-handlebars" data-template-name="commits">
@@ -134,5 +144,6 @@
     <script src="js/router.js"></script>
     <script src="js/controllers/indexController.js"></script>
     <script src="js/controllers/repositoriesController.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
 </body>
 </html>
