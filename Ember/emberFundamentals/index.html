@@ -67,7 +67,6 @@
     <ul class="list-group">
         {{#each repo in model}}
         <li class="list-group-item">
-            {{log this}}
             <h4>{{#link-to 'repository' repo.name}}{{repo.name}}{{/link-to}}</h4>
             <p>{{repo.description}}</p>
         </li>
@@ -87,16 +86,21 @@
     <ul>
         <li>Language : {{language}}</li>
         <li>Watchers : {{watchers}}</li>
-        <li>Open Issues : {{watchers}}</li>
+        <li>Open Issues : {{open_issues_count}}</li>
         <li>Clone : {{clone_url}}</li>
         <li>Web : <a {{bind-attr href=html_url}} target="_blank">{{html_url}}</a></li>
     </ul>
     <hr/>
+    {{#unless forked}}
     <ul class="list-inline">
         <li>{{#link-to 'issues'}}Issues{{/link-to}}</li>
         <li>{{#link-to 'forks'}}Forks{{/link-to}}</li>
         <li>{{#link-to 'commits'}}Commits{{/link-to}}</li>
+        <li>{{#link-to 'repository.newissue'}}New Issue{{/link-to}}</li>
     </ul>
+    {{else}}
+        <p class="text-mute">This was forked {{fromDate created_at}}</p>
+    {{/unless}}
     {{outlet}}
 </script>
 
@@ -145,6 +149,19 @@
     </div>
 </script>
 
+<script type="text/x-handlebars" data-template-name="repository/newissue">
+    <h3>Create a new Issue</h3>
+    <div class="form-group">
+        <label for="new-issue-title">Title</label><br/>
+        {{input value=title class='form-control' placeholder='Title of issue'}}
+    </div>
+    <div class="form-group">
+        <label for="new-issue-body">Body</label>
+        {{textarea value=body class='form-control' placeholder='What\'s your issue?' rows=5}}
+        <br/>
+        <button class="btn btn-primary" {{action 'submitIssue'}}>Submit Issue</button>
+    </div>
+</script>
     <script src="js/libs/jquery-1.10.2.js"></script>
     <script src="js/libs/handlebars-1.1.2.js"></script>
     <script src="js/libs/ember-1.6.1.js"></script>
