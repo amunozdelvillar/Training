@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css"/>
+</head>
+<body>
+    <p>Phantom.js is a program that wraps around the webkit engine and gives us a runtime environment for javascript and doesn't have all the overhead of the browser</p>
+    <div id="mocha"></div>
+    <script src="node_modules/mocha/mocha.js"></script>
+    <script src="node_modules/chai/chai.js"></script>
+    <script>mocha.setup(
+            { ui:'bdd',
+                reporter: function(){
+                    new Mocha.reporters.HTML(runner);
+                    new Mocha.reporters.Tenacity(runner);
+                }
+            })
+    </script>
+    <!--<script src="test/calculator.spec.js"></script>-->
+    <script src="test/bdd.js"></script>
+    <script src="test/async.js"></script>
+    <script src="test/run.mocha.js"></script>
+    <!--TEST FILES-->
+    <script>
+        mocha.run();
+    </script>
+</body>
+</html>
